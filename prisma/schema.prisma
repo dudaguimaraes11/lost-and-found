@@ -1,0 +1,44 @@
+// schema.prisma
+
+generator client {
+  provider = "prisma-client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  phone     String?
+  createdAt DateTime @default(now())
+
+  // Relações
+  items Item[] @relation("ItemsCreated") // Itens que o usuário cadastrou
+  found Item[] @relation("ItemsFound") // Itens que o usuário encontrou
+}
+
+model Item {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String?
+  location    String?
+  status      Status   @default(PERDIDO)
+  imageUrl    String?
+  createdAt   DateTime @default(now())
+
+  // Relações
+  owner     User  @relation("ItemsCreated", fields: [ownerId], references: [id])
+  ownerId   Int
+  foundBy   User? @relation("ItemsFound", fields: [foundById], references: [id])
+  foundById Int?
+}
+
+enum Status {
+  PERDIDO
+  ENCONTRADO
+  DEVOLVIDO
+}
