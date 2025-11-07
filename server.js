@@ -1,5 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
+import userRoutes from "./src/routes/userRoutes.js";
+import itemRoutes from "./src/routes/itemRoutes.js";
 
 const app = express();
 app.use(express.json());
@@ -10,6 +12,9 @@ const serverPort = process.env.PORT || 3001;
 app.get("/", (req, res) => {
   res.send("servidor funcionando");
 });
+
+app.use("/user", userRoutes);
+app.use("/item", itemRoutes);
 
 app.listen(serverPort, () => {
   console.log(`servidor rodando em http://localhost:${serverPort}`);
