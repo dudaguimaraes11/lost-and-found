@@ -1052,7 +1052,7 @@ async function main() {
     },
     {
       title: "Squeeze azul",
-      description: "Garrafa de água azul, 500ml, com adesivo 'Hydrate'.",
+      description: "Garrafa de água azul, 500 ml, com adesivo 'Hydrate'.",
       location: "Ginásio",
       imageUrl: "https://example.com/squeeze-azul.jpg",
       status: "PERDIDO",
