@@ -13,8 +13,8 @@ app.get("/", (req, res) => {
   res.send("servidor funcionando");
 });
 
-app.use("/user", userRoutes);
-app.use("/item", itemRoutes);
+app.use("/users", userRoutes);
+app.use("/itens", itemRoutes);
 
 app.listen(serverPort, () => {
   console.log(`servidor rodando em http://localhost:${serverPort}`);

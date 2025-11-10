@@ -10,12 +10,14 @@ datasource db {
 }
 
 model User {
-  id        Int      @id @default(autoincrement())
-  name      String
-  email     String   @unique
-  phone     String?
-  password  String
-  createdAt DateTime @default(now())
+  id         Int      @id @default(autoincrement())
+  name       String
+  email      String   @unique
+  phone      String?
+  password   String
+  anoEscolar String? // <-- Adicionado
+  turma      String?
+  createdAt  DateTime @default(now())
 
   // Relações
   items Item[] @relation("ItemsCreated") // Itens que o usuário cadastrou
@@ -25,6 +27,7 @@ model User {
 model Item {
   id          Int      @id @default(autoincrement())
   title       String
+  category    String
   description String?
   location    String?
   status      Status   @default(PERDIDO)
