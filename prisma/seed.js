@@ -4,606 +4,812 @@ const prisma = new PrismaClient();
 async function main() {
   // === USUÁRIOS REAIS (100) ===
   const usersData = [
+    // Turma: Eletroeletrônica - Manhã (1º Módulo) - 25 usuários
     {
       name: "Ana Silva",
       email: "ana.silva@senaisp.org.br",
       phone: "11998765401",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Bruno Souza",
       email: "bruno.souza@senaisp.org.br",
       phone: "11998765402",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Carlos Oliveira",
       email: "carlos.oliveira@senaisp.org.br",
       phone: "11998765403",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Daniela Santos",
       email: "daniela.santos@senaisp.org.br",
       phone: "11998765404",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Eduardo Lima",
       email: "eduardo.lima@senaisp.org.br",
       phone: "11998765405",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Fernanda Gomes",
       email: "fernanda.gomes@senaisp.org.br",
       phone: "11998765406",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Gabriel Rodrigues",
       email: "gabriel.rodrigues@senaisp.org.br",
       phone: "11998765407",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Helena Almeida",
       email: "helena.almeida@senaisp.org.br",
       phone: "11998765408",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Igor Ferreira",
       email: "igor.ferreira@senaisp.org.br",
       phone: "11998765409",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Juliana Pereira",
       email: "juliana.pereira@senaisp.org.br",
       phone: "11998765410",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
-    // Continuação até 100 usuários
     {
       name: "Kauã Martins",
       email: "kaua.martins@senaisp.org.br",
       phone: "11998765411",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Laura Costa",
       email: "laura.costa@senaisp.org.br",
       phone: "11998765412",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Lucas Ribeiro",
       email: "lucas.ribeiro@senaisp.org.br",
       phone: "11998765413",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Manuela Carvalho",
       email: "manuela.carvalho@senaisp.org.br",
       phone: "11998765414",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Nicolas Barbosa",
       email: "nicolas.barbosa@senaisp.org.br",
       phone: "11998765415",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Olivia Alves",
       email: "olivia.alves@senaisp.org.br",
       phone: "11998765416",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Pedro Dias",
       email: "pedro.dias@senaisp.org.br",
       phone: "11998765417",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Rafaela Barros",
       email: "rafaela.barros@senaisp.org.br",
       phone: "11998765418",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Samuel Mendes",
       email: "samuel.mendes@senaisp.org.br",
       phone: "11998765419",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Sofia Moreira",
       email: "sofia.moreira@senaisp.org.br",
       phone: "11998765420",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Thiago Nogueira",
       email: "thiago.nogueira@senaisp.org.br",
       phone: "11998765421",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Valentina Cunha",
       email: "valentina.cunha@senaisp.org.br",
       phone: "11998765422",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Vinicius Pires",
       email: "vinicius.pires@senaisp.org.br",
       phone: "11998765423",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Yasmin Azevedo",
       email: "yasmin.azevedo@senaisp.org.br",
       phone: "11998765424",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
     {
       name: "Arthur Castro",
       email: "arthur.castro@senaisp.org.br",
       phone: "11998765425",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Eletroeletrônica - Manhã",
     },
+
+    // Turma: Mecânica - Tarde (1º Módulo) - 25 usuários
     {
       name: "Beatriz Pinto",
       email: "beatriz.pinto@senaisp.org.br",
       phone: "11998765426",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Davi Rezende",
       email: "davi.rezende@senaisp.org.br",
       phone: "11998765427",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Esther Viana",
       email: "esther.viana@senaisp.org.br",
       phone: "11998765428",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Felipe Melo",
       email: "felipe.melo@senaisp.org.br",
       phone: "11998765429",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Giovanna Farias",
       email: "giovanna.farias@senaisp.org.br",
       phone: "11998765430",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Heitor Cardoso",
       email: "heitor.cardoso@senaisp.org.br",
       phone: "11998765431",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Isabella Correia",
       email: "isabella.correia@senaisp.org.br",
       phone: "11998765432",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "João Ramos",
       email: "joao.ramos@senaisp.org.br",
       phone: "11998765433",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Lara Lopes",
       email: "lara.lopes@senaisp.org.br",
       phone: "11998765434",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Leonardo Vieira",
       email: "leonardo.vieira@senaisp.org.br",
       phone: "11998765435",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Maria Clara Sales",
       email: "maria.sales@senaisp.org.br",
       phone: "11998765436",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Miguel Teixeira",
       email: "miguel.teixeira@senaisp.org.br",
       phone: "11998765437",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Nicole Fernandes",
       email: "nicole.fernandes@senaisp.org.br",
       phone: "11998765438",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Otávio Campos",
       email: "otavio.campos@senaisp.org.br",
       phone: "11998765439",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Rebeca Duarte",
       email: "rebeca.duarte@senaisp.org.br",
       phone: "11998765440",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Rodrigo Freitas",
       email: "rodrigo.freitas@senaisp.org.br",
       phone: "11998765441",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Sarah Gonçalves",
       email: "sarah.goncalves@senaisp.org.br",
       phone: "11998765442",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Theo Macedo",
       email: "theo.macedo@senaisp.org.br",
       phone: "11998765443",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Vitória Brandão",
       email: "vitoria.brandao@senaisp.org.br",
       phone: "11998765444",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "André Moraes",
       email: "andre.moraes@senaisp.org.br",
       phone: "11998765445",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Bárbara Neves",
       email: "barbara.neves@senaisp.org.br",
       phone: "11998765446",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Cauã Rocha",
       email: "caua.rocha@senaisp.org.br",
       phone: "11998765447",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Cecília Siqueira",
       email: "cecilia.siqueira@senaisp.org.br",
       phone: "11998765448",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Daniel Lira",
       email: "daniel.lira@senaisp.org.br",
       phone: "11998765449",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
     {
       name: "Elisa Peixoto",
       email: "elisa.peixoto@senaisp.org.br",
       phone: "11998765450",
       password: "senha123",
+      anoEscolar: "1º Módulo",
+      turma: "Mecânica - Tarde",
     },
+
+    // Turma: Eletroeletrônica - Noite (2º Módulo) - 25 usuários
     {
       name: "Enzo Rangel",
       email: "enzo.rangel@senaisp.org.br",
       phone: "11998765451",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Gabriela Drummond",
       email: "gabriela.drummond@senaisp.org.br",
       phone: "11998765452",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Gustavo Silveira",
       email: "gustavo.silveira@senaisp.org.br",
       phone: "11998765453",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Heloísa Guerra",
       email: "heloisa.guerra@senaisp.org.br",
       phone: "11998765454",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Isaac Matos",
       email: "isaac.matos@senaisp.org.br",
       phone: "11998765455",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Joana Cavalcanti",
       email: "joana.cavalcanti@senaisp.org.br",
       phone: "11998765456",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Kevin Moura",
       email: "kevin.moura@senaisp.org.br",
       phone: "11998765457",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Lívia Navarro",
       email: "livia.navarro@senaisp.org.br",
       phone: "11998765458",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Marcos Paiva",
       email: "marcos.paiva@senaisp.org.br",
       phone: "11998765459",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Maria Eduarda Pimentel",
       email: "maria.pimentel@senaisp.org.br",
       phone: "11998765460",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Matheus Santana",
       email: "matheus.santana@senaisp.org.br",
       phone: "11998765461",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Melissa Fogaça",
       email: "melissa.fogaca@senaisp.org.br",
       phone: "11998765462",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Noah Caldeira",
       email: "noah.caldeira@senaisp.org.br",
       phone: "11998765463",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Pietra Tavares",
       email: "pietra.tavares@senaisp.org.br",
       phone: "11998765464",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Rafael Dantas",
       email: "rafael.dantas@senaisp.org.br",
       phone: "11998765465",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Stella Bentes",
       email: "stella.bentes@senaisp.org.br",
       phone: "11998765466",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Victor Queiroz",
       email: "victor.queiroz@senaisp.org.br",
       phone: "11998765467",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Alice Chaves",
       email: "alice.chaves@senaisp.org.br",
       phone: "11998765468",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Bernardo Guedes",
       email: "bernardo.guedes@senaisp.org.br",
       phone: "11998765469",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Clara Leal",
       email: "clara.leal@senaisp.org.br",
       phone: "11998765470",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Diego Bastos",
       email: "diego.bastos@senaisp.org.br",
       phone: "11998765471",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Emanuelly Fontes",
       email: "emanuelly.fontes@senaisp.org.br",
       phone: "11998765472",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Francisco Arruda",
       email: "francisco.arruda@senaisp.org.br",
       phone: "11998765473",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Isabelly Telles",
       email: "isabelly.telles@senaisp.org.br",
       phone: "11998765474",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
     {
       name: "Joaquim Bezerra",
       email: "joaquim.bezerra@senaisp.org.br",
       phone: "11998765475",
       password: "senha123",
+      anoEscolar: "2º Módulo",
+      turma: "Eletroeletrônica - Noite",
     },
+
+    // Turma: Mecânica - Noite (3º Módulo) - 25 usuários
     {
       name: "Lorena Pinho",
       email: "lorena.pinho@senaisp.org.br",
       phone: "11998765476",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Lorenzo Prado",
       email: "lorenzo.prado@senaisp.org.br",
       phone: "11998765477",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Maitê Franco",
       email: "maite.franco@senaisp.org.br",
       phone: "11998765478",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Murilo Aguiar",
       email: "murilo.aguiar@senaisp.org.br",
       phone: "11998765479",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Olívia Furtado",
       email: "olivia.furtado@senaisp.org.br",
       phone: "11998765480",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Paulo Navarro",
       email: "paulo.navarro@senaisp.org.br",
       phone: "11998765481",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Rayssa Esteves",
       email: "rayssa.esteves@senaisp.org.br",
       phone: "11998765482",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Sérgio Lemos",
       email: "sergio.lemos@senaisp.org.br",
       phone: "11998765483",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Teodoro Barreto",
       email: "teodoro.barreto@senaisp.org.br",
       phone: "11998765484",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Valentine Assis",
       email: "valentine.assis@senaisp.org.br",
       phone: "11998765485",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Vicente Avelar",
       email: "vicente.avelar@senaisp.org.br",
       phone: "11998765486",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Yago Meireles",
       email: "yago.meireles@senaisp.org.br",
       phone: "11998765487",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Zilda Varejão",
       email: "zilda.varejao@senaisp.org.br",
       phone: "11998765488",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Breno Amaral",
       email: "breno.amaral@senaisp.org.br",
       phone: "11998765489",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Catarina Beltrão",
       email: "catarina.beltrao@senaisp.org.br",
       phone: "11998765490",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Danilo Cordeiro",
       email: "danilo.cordeiro@senaisp.org.br",
       phone: "11998765491",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Eloá Dornelles",
       email: "eloa.dornelles@senaisp.org.br",
       phone: "11998765492",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Erick Goulart",
       email: "erick.goulart@senaisp.org.br",
       phone: "11998765493",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Hadassa Guimarães",
       email: "hadassa.guimaraes@senaisp.org.br",
       phone: "11998765494",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Ian Novais",
       email: "ian.novais@senaisp.org.br",
       phone: "11998765495",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Laís Padrão",
       email: "lais.padrao@senaisp.org.br",
       phone: "11998765496",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Levi Sampaio",
       email: "levi.sampaio@senaisp.org.br",
       phone: "11998765497",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Maya Valente",
       email: "maya.valente@senaisp.org.br",
       phone: "11998765498",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Nícolas Xavier",
       email: "nicolas.xavier@senaisp.org.br",
       phone: "11998765499",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
     {
       name: "Sabrina Zamboni",
       email: "sabrina.zamboni@senaisp.org.br",
       phone: "11998765500",
       password: "senha123",
+      anoEscolar: "3º Módulo",
+      turma: "Mecânica - Noite",
     },
   ];
 
@@ -617,7 +823,8 @@ async function main() {
         "Garrafinha térmica rosa claro, 1 litro. Encontrada na cantina no dia 15/09 (manhã).",
       location: "Cantina",
       imageUrl: "https://example.com/garrafinha-lululemon.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Recipientes", // Adicionado
       ownerId: 1,
       foundById: 2,
     },
@@ -626,7 +833,8 @@ async function main() {
       description: "Mochila preta com zíper vermelho e etiqueta escolar.",
       location: "Biblioteca",
       imageUrl: "https://example.com/mochila-nike.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
       ownerId: 3,
     },
     {
@@ -635,7 +843,8 @@ async function main() {
         "Carteira de couro marrom com cartões e documentos pessoais.",
       location: "Pátio",
       imageUrl: "https://example.com/carteira.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 4,
       foundById: 5,
     },
@@ -644,7 +853,8 @@ async function main() {
       description: "Fone JBL sem fio esquecido no laboratório de informática.",
       location: "Lab. de Informática",
       imageUrl: "https://example.com/fone-jbl.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 6,
     },
     {
@@ -652,7 +862,8 @@ async function main() {
       description: "Caderno azul com etiqueta do SENAI na capa.",
       location: "Sala 104",
       imageUrl: "https://example.com/caderno.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
       ownerId: 7,
       foundById: 8,
     },
@@ -661,7 +872,8 @@ async function main() {
       description: "Chave pequena com chaveiro em formato de bola.",
       location: "Corredor principal",
       imageUrl: "https://example.com/chave.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 9,
       foundById: 10,
     },
@@ -670,7 +882,8 @@ async function main() {
       description: "Casaco de moletom cinza, tamanho M.",
       location: "Cantina",
       imageUrl: "https://example.com/casaco.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Vestuário", // Adicionado
       ownerId: 11,
     },
     {
@@ -678,7 +891,8 @@ async function main() {
       description: "Pen drive preto Sandisk, encontrado na sala de aula.",
       location: "Sala 201",
       imageUrl: "https://example.com/pendrive.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 12,
       foundById: 13,
     },
@@ -687,7 +901,8 @@ async function main() {
       description: "Óculos de grau com armação escura, deixado no banheiro.",
       location: "Banheiro feminino",
       imageUrl: "https://example.com/oculos.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 14,
       foundById: 15,
     },
@@ -696,17 +911,18 @@ async function main() {
       description: "Relógio preto Casio esquecido no vestiário.",
       location: "Vestiário masculino",
       imageUrl: "https://example.com/relogio.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 16,
       foundById: 17,
     },
-    // Início dos 90 itens gerados (itens 11-100)
     {
       title: "Carregador de celular Samsung",
       description: "Carregador branco, tipo C. Perdido perto do auditório.",
       location: "Auditório",
       imageUrl: "https://example.com/carregador-samsung.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 18,
     },
     {
@@ -714,7 +930,8 @@ async function main() {
       description: "Livro de capa azul, encontrado na biblioteca.",
       location: "Biblioteca",
       imageUrl: "https://example.com/livro-calculo.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
       ownerId: 19,
       foundById: 18,
     },
@@ -724,7 +941,8 @@ async function main() {
         "Guarda-chuva grande, cabo de madeira. Esquecido na entrada.",
       location: "Entrada principal",
       imageUrl: "https://example.com/guarda-chuva.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Outros", // Adicionado
       ownerId: 20,
     },
     {
@@ -732,7 +950,8 @@ async function main() {
       description: "Calculadora científica cinza, encontrada na sala 202.",
       location: "Sala 202",
       imageUrl: "https://example.com/calculadora-hp.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
       ownerId: 21,
       foundById: 19,
     },
@@ -741,7 +960,8 @@ async function main() {
       description: "Estojo rosa com muitos adesivos.",
       location: "Pátio",
       imageUrl: "https://example.com/estojo-rosa.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Material Escolar", // Adicionado
       ownerId: 22,
     },
     {
@@ -749,7 +969,8 @@ async function main() {
       description: "Boné de aba curva, logo branco. Encontrado no ginásio.",
       location: "Ginásio",
       imageUrl: "https://example.com/bone-nike.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Vestuário", // Adicionado
       ownerId: 23,
       foundById: 20,
     },
@@ -758,7 +979,8 @@ async function main() {
       description: "Chave canivete Volkswagen com chaveiro do Star Wars.",
       location: "Estacionamento",
       imageUrl: "https://example.com/chave-vw.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
       ownerId: 24,
     },
     {
@@ -766,7 +988,8 @@ async function main() {
       description: "Agenda de capa dura preta, encontrada na sala 101.",
       location: "Sala 101",
       imageUrl: "https://example.com/agenda-preta.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
       ownerId: 25,
       foundById: 21,
     },
@@ -775,7 +998,8 @@ async function main() {
       description: "Um brinco de argola (par perdido).",
       location: "Banheiro feminino",
       imageUrl: "https://example.com/brinco-argola.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
       ownerId: 26,
     },
     {
@@ -783,7 +1007,8 @@ async function main() {
       description: "Pulseira fina com um pequeno pingente de coração.",
       location: "Refeitório",
       imageUrl: "https://example.com/pulseira-prata.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 27,
       foundById: 22,
     },
@@ -792,7 +1017,8 @@ async function main() {
       description: "Anel com pedra azul, inscrição interna 'A.L. 2023'.",
       location: "Vestiário masculino",
       imageUrl: "https://example.com/anel-formatura.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
       ownerId: 28,
     },
     {
@@ -800,7 +1026,8 @@ async function main() {
       description: "Modelo Aviador, armação dourada, lente verde.",
       location: "Quadra",
       imageUrl: "https://example.com/oculos-rayban.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 29,
       foundById: 23,
     },
@@ -809,7 +1036,8 @@ async function main() {
       description: "Pasta preta com zíper, perdida na secretaria.",
       location: "Secretaria",
       imageUrl: "https://example.com/pasta-couro.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
       ownerId: 30,
     },
     {
@@ -817,7 +1045,8 @@ async function main() {
       description: "Jaleco branco com logo do SENAI, bolso manchado de caneta.",
       location: "Lab. de Química",
       imageUrl: "https://example.com/jaleco.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Vestuário", // Adicionado
       ownerId: 31,
       foundById: 24,
     },
@@ -826,7 +1055,8 @@ async function main() {
       description: "Garrafa de água azul, 500ml, com adesivo 'Hydrate'.",
       location: "Ginásio",
       imageUrl: "https://example.com/squeeze-azul.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Recipientes", // Adicionado
       ownerId: 32,
     },
     {
@@ -834,7 +1064,8 @@ async function main() {
       description: "Caixinha de som preta, modelo JBL Go. Encontrada no pátio.",
       location: "Pátio",
       imageUrl: "https://example.com/jbl-go.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 33,
       foundById: 25,
     },
@@ -843,7 +1074,8 @@ async function main() {
       description: "Tablet com capa rosa, tela trincada no canto.",
       location: "Biblioteca",
       imageUrl: "https://example.com/tablet-samsung.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 34,
     },
     {
@@ -852,7 +1084,8 @@ async function main() {
         "Carregador de notebook Dell (ponta fina), encontrado na sala 301.",
       location: "Sala 301",
       imageUrl: "https://example.com/carregador-dell.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 35,
       foundById: 26,
     },
@@ -862,7 +1095,8 @@ async function main() {
         "Mouse preto, pequeno, perdido no laboratório de informática.",
       location: "Lab. de Informática",
       imageUrl: "https://example.com/mouse-logitech.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 36,
     },
     {
@@ -870,7 +1104,8 @@ async function main() {
       description: "Teclado com luzes RGB, encontrado na sala 201.",
       location: "Sala 201",
       imageUrl: "https://example.com/teclado-mecanico.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 37,
       foundById: 27,
     },
@@ -879,7 +1114,8 @@ async function main() {
       description: "Jaqueta jeans clara, tamanho P, com botons.",
       location: "Cantina",
       imageUrl: "https://example.com/jaqueta-jeans.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Vestuário", // Adicionado
       ownerId: 38,
     },
     {
@@ -887,7 +1123,8 @@ async function main() {
       description: "Edição de capa dura, encontrado no corredor B.",
       location: "Corredor B",
       imageUrl: "https://example.com/pequeno-principe.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
       ownerId: 39,
       foundById: 28,
     },
@@ -896,7 +1133,8 @@ async function main() {
       description: "Chave prateada única, sem chaveiro.",
       location: "Pátio",
       imageUrl: "https://example.com/chave-simples.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
       ownerId: 40,
     },
     {
@@ -904,7 +1142,8 @@ async function main() {
       description: "Fone original da Apple, com conector lightning.",
       location: "Biblioteca",
       imageUrl: "https://example.com/fone-apple.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 41,
       foundById: 29,
     },
@@ -913,7 +1152,8 @@ async function main() {
       description: "Cabo e fonte, originais. Perdido na sala 104.",
       location: "Sala 104",
       imageUrl: "https://example.com/carregador-iphone.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 42,
     },
     {
@@ -921,7 +1161,8 @@ async function main() {
       description: "Bolsa transversal com alça dourada.",
       location: "Banheiro feminino",
       imageUrl: "https://example.com/bolsa-preta.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 43,
       foundById: 30,
     },
@@ -930,7 +1171,8 @@ async function main() {
       description: "Pé esquerdo de um tênis Adidas Superstar, branco.",
       location: "Vestiário masculino",
       imageUrl: "https://example.com/tenis-adidas.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Vestuário", // Adicionado
       ownerId: 44,
     },
     {
@@ -938,7 +1180,8 @@ async function main() {
       description: "Caderno grande, capa preta, com vários esboços.",
       location: "Sala 202",
       imageUrl: "https://example.com/caderno-desenho.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
       ownerId: 45,
       foundById: 31,
     },
@@ -947,7 +1190,8 @@ async function main() {
       description: "Blusa de lã, gola V, tamanho M.",
       location: "Auditório",
       imageUrl: "https://example.com/blusa-la.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Vestuário", // Adicionado
       ownerId: 46,
     },
     {
@@ -955,7 +1199,8 @@ async function main() {
       description: "Moletom cinza com zíper, escrito Hollister em azul.",
       location: "Ginásio",
       imageUrl: "https://example.com/moletom-hollister.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Vestuário", // Adicionado
       ownerId: 47,
       foundById: 32,
     },
@@ -964,7 +1209,8 @@ async function main() {
       description: "Caixinha de carregamento Airpods (vazia).",
       location: "Cantina",
       imageUrl: "https://example.com/case-airpods.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 48,
     },
     {
@@ -972,7 +1218,8 @@ async function main() {
       description: "Carteira de Identidade em nome de 'Carlos E. S.'.",
       location: "Secretaria",
       imageUrl: "https://example.com/documento-rg.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Documentos", // Adicionado
       ownerId: 49,
       foundById: 33,
     },
@@ -981,7 +1228,8 @@ async function main() {
       description: "Chaveiro de metal em formato de abridor de garrafa.",
       location: "Refeitório",
       imageUrl: "https://example.com/chaveiro-abridor.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
       ownerId: 50,
     },
     {
@@ -990,7 +1238,8 @@ async function main() {
         "Cadeado de bicicleta U-lock, preto. Encontrado no bicicletário.",
       location: "Bicicletário",
       imageUrl: "https://example.com/cadeado-u-lock.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 51,
       foundById: 34,
     },
@@ -999,7 +1248,8 @@ async function main() {
       description: "Kindle Paperwhite com capa azul.",
       location: "Biblioteca",
       imageUrl: "https://example.com/kindle.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 52,
     },
     {
@@ -1007,7 +1257,8 @@ async function main() {
       description: "Controle preto, marca PPA. Encontrado no estacionamento.",
       location: "Estacionamento",
       imageUrl: "https://example.com/controle-portao.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 53,
       foundById: 35,
     },
@@ -1016,7 +1267,8 @@ async function main() {
       description: "Carregador portátil preto, marca Xiaomi.",
       location: "Sala 101",
       imageUrl: "https://example.com/powerbank-xiaomi.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 54,
     },
     {
@@ -1024,7 +1276,8 @@ async function main() {
       description: "Presilha grande (piranha), cor tartaruga.",
       location: "Banheiro feminino",
       imageUrl: "https://example.com/presilha.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 55,
       foundById: 36,
     },
@@ -1033,7 +1286,8 @@ async function main() {
       description: "Cartão de estudante, nome 'Mariana G.'.",
       location: "Pátio",
       imageUrl: "https://example.com/bilhete-unico.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Documentos", // Adicionado
       ownerId: 56,
     },
     {
@@ -1041,7 +1295,8 @@ async function main() {
       description: "Pote de vidro com tampa verde, encontrado no refeitório.",
       location: "Refeitório",
       imageUrl: "https://example.com/marmita.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Recipientes", // Adicionado
       ownerId: 57,
       foundById: 37,
     },
@@ -1050,7 +1305,8 @@ async function main() {
       description: "Nivea azul, perdido na cantina.",
       location: "Cantina",
       imageUrl: "https://example.com/protetor-labial.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Outros", // Adicionado
       ownerId: 58,
     },
     {
@@ -1058,7 +1314,8 @@ async function main() {
       description: "HD Externo Seagate 1TB, cabo azul.",
       location: "Lab. de Informática",
       imageUrl: "https://example.com/hd-externo.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 59,
       foundById: 38,
     },
@@ -1067,7 +1324,8 @@ async function main() {
       description: "Luvas de lã pretas, tamanho único.",
       location: "Corredor principal",
       imageUrl: "https://example.com/luvas-pretas.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Vestuário", // Adicionado
       ownerId: 60,
     },
     {
@@ -1075,7 +1333,8 @@ async function main() {
       description: "Moeda de 1 real das Olimpíadas (Boxe).",
       location: "Pátio",
       imageUrl: "https://example.com/moeda-olimpiadas.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Outros", // Adicionado
       ownerId: 61,
       foundById: 39,
     },
@@ -1084,7 +1343,8 @@ async function main() {
       description: "Capa de violão preta, vazia. Esquecida no auditório.",
       location: "Auditório",
       imageUrl: "https://example.com/capa-violao.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
       ownerId: 62,
     },
     {
@@ -1092,7 +1352,8 @@ async function main() {
       description: "Escova tipo raquete, cor rosa.",
       location: "Vestiário feminino",
       imageUrl: "https://example.com/escova-cabelo.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 63,
       foundById: 40,
     },
@@ -1101,7 +1362,8 @@ async function main() {
       description: "Crachá de visitante, número 042.",
       location: "Entrada principal",
       imageUrl: "https://example.com/cracha-visitante.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Documentos", // Adicionado
       ownerId: 64,
     },
     {
@@ -1109,7 +1371,8 @@ async function main() {
       description: "Livro '1984', com etiqueta da biblioteca.",
       location: "Sala 102",
       imageUrl: "https://example.com/livro-1984.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
       ownerId: 65,
       foundById: 41,
     },
@@ -1118,7 +1381,8 @@ async function main() {
       description: "Copo térmico verde, com tampa. Perdido na quadra.",
       location: "Quadra",
       imageUrl: "https://example.com/copo-stanley.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Recipientes", // Adicionado
       ownerId: 66,
     },
     {
@@ -1126,7 +1390,8 @@ async function main() {
       description: "Bola Mikasa, encontrada no ginásio após o horário.",
       location: "Ginásio",
       imageUrl: "https://example.com/bola-volei.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Outros", // Adicionado
       ownerId: 67,
       foundById: 42,
     },
@@ -1135,7 +1400,8 @@ async function main() {
       description: "Adaptador universal, branco.",
       location: "Sala 301",
       imageUrl: "https://example.com/adaptador-tomada.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 68,
     },
     {
@@ -1143,7 +1409,8 @@ async function main() {
       description: "Maço de Marlboro vermelho, encontrado no estacionamento.",
       location: "Estacionamento",
       imageUrl: "https://example.com/maco-cigarro.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Outros", // Adicionado
       ownerId: 69,
       foundById: 43,
     },
@@ -1152,7 +1419,8 @@ async function main() {
       description: "Modelo esportivo, armação preta, lente espelhada.",
       location: "Quadra",
       imageUrl: "https://example.com/oculos-oakley.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
       ownerId: 70,
     },
     {
@@ -1160,7 +1428,8 @@ async function main() {
       description: "Camiseta preta, número 10. Encontrada no vestiário.",
       location: "Vestiário masculino",
       imageUrl: "https://example.com/camiseta-corinthians.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Vestuário", // Adicionado
       ownerId: 71,
       foundById: 44,
     },
@@ -1169,7 +1438,8 @@ async function main() {
       description: "Fones pretos, simples, marca 'Inova'.",
       location: "Biblioteca",
       imageUrl: "https://example.com/fone-generico.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 72,
     },
     {
@@ -1177,7 +1447,8 @@ async function main() {
       description: "Relógio dourado, marca 'Orient', pulseira de metal.",
       location: "Banheiro masculino",
       imageUrl: "https://example.com/relogio-orient.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 73,
       foundById: 45,
     },
@@ -1186,7 +1457,8 @@ async function main() {
       description: "Garrafa de inox, 500ml, com café dentro.",
       location: "Sala dos Professores",
       imageUrl: "https://example.com/garrafa-cafe.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Recipientes", // Adicionado
       ownerId: 74,
     },
     {
@@ -1194,7 +1466,8 @@ async function main() {
       description: "Chaveiro do Pikachu, encontrado no corredor B.",
       location: "Corredor B",
       imageUrl: "https://example.com/chaveiro-pikachu.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 75,
       foundById: 46,
     },
@@ -1203,7 +1476,8 @@ async function main() {
       description: "Isqueiro azul, perdido perto da entrada.",
       location: "Entrada principal",
       imageUrl: "https://example.com/isqueiro-bic.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Outros", // Adicionado
       ownerId: 76,
     },
     {
@@ -1211,7 +1485,8 @@ async function main() {
       description: "Câmera instantânea rosa, encontrada na cantina.",
       location: "Cantina",
       imageUrl: "https://example.com/instax-mini.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 77,
       foundById: 47,
     },
@@ -1220,7 +1495,8 @@ async function main() {
       description: "Edição de bolso, capa verde.",
       location: "Pátio",
       imageUrl: "https://example.com/livro-hobbit.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Material Escolar", // Adicionado
       ownerId: 78,
     },
     {
@@ -1228,7 +1504,8 @@ async function main() {
       description: "Capa de notebook preta, 15 polegadas, zíper quebrado.",
       location: "Sala 201",
       imageUrl: "https://example.com/capa-notebook.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
       ownerId: 79,
       foundById: 48,
     },
@@ -1237,7 +1514,8 @@ async function main() {
       description: "Chapéu de feltro preto, estilo 'Fedora'.",
       location: "Auditório",
       imageUrl: "https://example.com/chapeu-fedora.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Vestuário", // Adicionado
       ownerId: 80,
     },
     {
@@ -1245,7 +1523,8 @@ async function main() {
       description: "Controle universal, encontrado na sala 102.",
       location: "Sala 102",
       imageUrl: "https://example.com/controle-ar.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 81,
       foundById: 49,
     },
@@ -1254,7 +1533,8 @@ async function main() {
       description: "Cola Pritt, grande. Perdida na biblioteca.",
       location: "Biblioteca",
       imageUrl: "https://example.com/cola-pritt.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Material Escolar", // Adicionado
       ownerId: 82,
     },
     {
@@ -1262,7 +1542,8 @@ async function main() {
       description: "Apontador Faber-Castell, azul. Encontrado na sala 104.",
       location: "Sala 104",
       imageUrl: "https://example.com/apontador.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
       ownerId: 83,
       foundById: 50,
     },
@@ -1272,7 +1553,8 @@ async function main() {
         "Desodorante aerosol Rexona, masculino. Esquecido no vestiário.",
       location: "Vestiário masculino",
       imageUrl: "https://example.com/desodorante.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Outros", // Adicionado
       ownerId: 84,
     },
     {
@@ -1280,7 +1562,8 @@ async function main() {
       description: "Carimbo com o nome 'Prof. Helena M.'.",
       location: "Sala dos Professores",
       imageUrl: "https://example.com/carimbo.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
       ownerId: 85,
       foundById: 51,
     },
@@ -1289,7 +1572,8 @@ async function main() {
       description: "Camisa branca, tamanho G, dobrada. Perdida no auditório.",
       location: "Auditório",
       imageUrl: "https://example.com/camisa-social.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Vestuário", // Adicionado
       ownerId: 86,
     },
     {
@@ -1297,7 +1581,8 @@ async function main() {
       description: "Garrafa de 'Yakult', encontrada vazia na sala 202.",
       location: "Sala 202",
       imageUrl: "https://example.com/yakult.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Recipientes", // Adicionado
       ownerId: 87,
       foundById: 52,
     },
@@ -1306,7 +1591,8 @@ async function main() {
       description: "Sapato social masculino, pé direito, marca 'Democrata'.",
       location: "Estacionamento",
       imageUrl: "https://example.com/sapato-social.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Vestuário", // Adicionado
       ownerId: 88,
     },
     {
@@ -1314,7 +1600,8 @@ async function main() {
       description: "Grampeador pequeno, preto. Encontrado na secretaria.",
       location: "Secretaria",
       imageUrl: "https://example.com/grampeador.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
       ownerId: 89,
       foundById: 53,
     },
@@ -1323,7 +1610,8 @@ async function main() {
       description: "Pacote de 'Passatempo', recheio de chocolate.",
       location: "Cantina",
       imageUrl: "https://example.com/bolacha.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Outros", // Adicionado
       ownerId: 90,
     },
     {
@@ -1331,7 +1619,8 @@ async function main() {
       description: "Batom da marca MAC, cor Ruby Woo. Encontrado no banheiro.",
       location: "Banheiro feminino",
       imageUrl: "https://example.com/batom-mac.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Outros", // Adicionado
       ownerId: 91,
       foundById: 54,
     },
@@ -1340,7 +1629,8 @@ async function main() {
       description: "Mousepad preto, simples. Perdido no Lab. de Informática.",
       location: "Lab. de Informática",
       imageUrl: "https://example.com/mousepad.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Eletrônicos", // Adicionado
       ownerId: 92,
     },
     {
@@ -1348,7 +1638,8 @@ async function main() {
       description: "Marca-texto amarelo, Faber-Castell.",
       location: "Biblioteca",
       imageUrl: "https://example.com/marca-texto.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
       ownerId: 93,
       foundById: 55,
     },
@@ -1357,16 +1648,17 @@ async function main() {
       description: "Touca de silicone preta, marca 'Speedo'.",
       location: "Vestiário masculino",
       imageUrl: "https://example.com/touca-natacao.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Vestuário", // Adicionado
       ownerId: 94,
     },
-    // --- Itens adicionados para completar 100 ---
     {
       title: "Álcool em gel",
       description: "Frasco pequeno, com chaveiro, 'Giovanna Baby'.",
       location: "Pátio",
       imageUrl: "https://example.com/alcool-gel.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Outros", // Adicionado
       ownerId: 95,
       foundById: 56,
     },
@@ -1375,7 +1667,8 @@ async function main() {
       description: "Óculos Speedo, lente azul.",
       location: "Vestiário masculino",
       imageUrl: "https://example.com/oculos-natacao.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
       ownerId: 96,
     },
     {
@@ -1383,7 +1676,8 @@ async function main() {
       description: "Uma nota de R$ 50,00 encontrada no corredor.",
       location: "Corredor principal",
       imageUrl: "https://example.com/dinheiro-50.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Outros", // Adicionado
       ownerId: 97,
       foundById: 57,
     },
@@ -1392,7 +1686,8 @@ async function main() {
       description: "Caderneta preta, pequena, com elástico.",
       location: "Refeitório",
       imageUrl: "https://example.com/moleskine.jpg",
-      status: Status.PERDIDO,
+      status: "PERDIDO",
+      category: "Material Escolar", // Adicionado
       ownerId: 98,
     },
     {
@@ -1400,7 +1695,8 @@ async function main() {
       description: "Caixa de Band-aid, quase cheia. Encontrada no ginásio.",
       location: "Ginásio",
       imageUrl: "https://example.com/band-aid.jpg",
-      status: Status.ENCONTRADO,
+      status: "ENCONTRADO",
+      category: "Outros", // Adicionado
       ownerId: 99,
       foundById: 58,
     },
@@ -1408,9 +1704,108 @@ async function main() {
       title: "Anel (Bijuteria)",
       description: "Anel de metal prateado com pedra falsa (verde).",
       location: "Banheiro feminino",
-      imageUrl: "https://example.com/anel-bijuteria.jpg",
-      status: Status.PERDIDO,
+      imageUrl: "https://i.ibb.co/hxghpLMQ/anel-sites-de-bijuteria.jpg",
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
       ownerId: 100,
+    },
+    // --- Itens 101-103 Corrigidos ---
+    {
+      title: "Carregador Portátil (Powerbank) Branco",
+      description:
+        "Powerbank branco da marca 'Baseus', deixado na sala de estudos.",
+      location: "Sala de Estudos",
+      imageUrl: "https://example.com/powerbank-baseus.jpg",
+      status: "ENCONTRADO",
+      category: "Eletrônicos", // Adicionado
+      ownerId: 1, // Corrigido (era 101)
+      foundById: 59,
+    },
+    {
+      title: "Cartão de Acesso (Crachá)",
+      description:
+        "Crachá de aluno com foto, nome 'Lucas R.'. Perdido no corredor principal.",
+      location: "Corredor principal",
+      imageUrl: "https://example.com/cracha-lucas.jpg",
+      status: "PERDIDO",
+      category: "Documentos", // Adicionado
+      ownerId: 2, // Corrigido (era 102)
+    },
+    {
+      title: "Livro 'Admirável Mundo Novo'",
+      description:
+        "Livro de capa mole, edição da 'Biblioteca Azul'. Encontrado no pátio.",
+      location: "Pátio",
+      imageUrl: "https://example.com/livro-admiravel.jpg",
+      status: "ENCONTRADO",
+      category: "Material Escolar", // Adicionado
+      ownerId: 3, // Corrigido (era 103)
+      foundById: 60,
+    },
+    {
+      title: "Máscara Facial (de tecido)",
+      description:
+        "Máscara reutilizável azul, com elásticos para as orelhas. Perdida na cantina.",
+      location: "Cantina",
+      imageUrl: "https://example.com/mascara-tecido.jpg",
+      status: "PERDIDO",
+      category: "Vestuário", // Adicionado
+      ownerId: 4, // Corrigido (era 104)
+    },
+    {
+      title: "Garrafa Térmica (Inox)",
+      description:
+        "Garrafa térmica prata, capacidade de 750ml. Encontrada na sala dos professores.",
+      location: "Sala dos Professores",
+      imageUrl: "https://example.com/garrafa-termica.jpg",
+      status: "ENCONTRADO",
+      category: "Recipientes", // Adicionado
+      ownerId: 5, // Corrigido (era 105)
+      foundById: 61,
+    },
+    {
+      title: "Caderno Universitário (Capa Dura)",
+      description:
+        "Caderno de capa dura azul, com adesivos na capa. Esquecido na sala 203.",
+      location: "Sala 203",
+      imageUrl: "https://example.com/caderno-capa-dura.jpg",
+      status: "PERDIDO",
+      category: "Material Escolar", // Adicionado
+      ownerId: 6, // Corrigido (era 106)
+      foundById: null,
+    },
+    {
+      title: "Fone de Ouvido Bluetooth (Sem Fio)",
+      description:
+        "Fone de ouvido preto, modelo 'TWS'. Encontrado no laboratório de informática.",
+      location: "Lab. de Informática",
+      imageUrl: "https://example.com/fone-bluetooth.jpg",
+      status: "ENCONTRADO",
+      category: "Eletrônicos", // Adicionado
+      ownerId: 7, // Corrigido (era 107)
+      foundById: 62,
+    },
+    {
+      title: "Relógio de Pulso Digital (Casio)",
+      description:
+        "Relógio digital preto da marca Casio, com pulseira de borracha. Perdido no vestiário.",
+      location: "Vestiário",
+      imageUrl: "https://example.com/relogio-casio.jpg",
+      status: "PERDIDO",
+      category: "Acessórios", // Adicionado
+      ownerId: 8, // Corrigido (era 108)
+      foundById: null,
+    },
+    {
+      title: "Mochila Escolar (Preta com detalhes vermelhos)",
+      description:
+        "Mochila preta com detalhes vermelhos, marca 'Nike'. Encontrada no pátio.",
+      location: "Pátio",
+      imageUrl: "https://example.com/mochila.jpg",
+      status: "ENCONTRADO",
+      category: "Acessórios", // Adicionado
+      ownerId: 9, // Corrigido (era 109)
+      foundById: 63,
     },
   ];
 
