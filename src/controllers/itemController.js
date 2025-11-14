@@ -79,6 +79,7 @@ export const deleteItem = async (req, res) => {
     if (!item) {
       return res.status(404).json({
         message: "Item não encontrado",
+        error: "Not Found",
       });
     }
 
@@ -87,7 +88,6 @@ export const deleteItem = async (req, res) => {
     return res.status(200).json({
       message: "Item deletado com sucesso",
       status: 200,
-      error: null,
     });
   } catch (error) {
     return res.status(500).json({

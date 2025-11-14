@@ -15,13 +15,13 @@ model User {
   email      String   @unique
   phone      String?
   password   String
-  anoEscolar String? // <-- Adicionado
+  anoEscolar String?
   turma      String?
   createdAt  DateTime @default(now())
 
   // Relações
-  items Item[] @relation("ItemsCreated") // Itens que o usuário cadastrou
-  found Item[] @relation("ItemsFound") // Itens que o usuário encontrou
+  items Item[] @relation("ItemsCreated") // Itens cadastrados pelo usuário
+  found Item[] @relation("ItemsFound") // Itens encontrados pelo usuário
 }
 
 model Item {
@@ -35,9 +35,10 @@ model Item {
   createdAt   DateTime @default(now())
 
   // Relações
-  owner     User  @relation("ItemsCreated", fields: [ownerId], references: [id])
-  ownerId   Int
-  foundBy   User? @relation("ItemsFound", fields: [foundById], references: [id])
+  owner   User @relation("ItemsCreated", fields: [ownerId], references: [id], onDelete: Cascade)
+  ownerId Int
+
+  foundBy   User? @relation("ItemsFound", fields: [foundById], references: [id], onDelete: SetNull)
   foundById Int?
 }
 
