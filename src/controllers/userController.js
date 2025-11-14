@@ -1,25 +1,16 @@
 import * as User from "../models/userModels.js";
 
-export const createUser = async (req, res) => {
-  try {
-    const user = await User.createUser(req.body);
-    res.status(201).json({
-      message: "Usuário criado com sucesso",
-      status: 201,
-    });
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }
-};
-
+/* ===============================
+   1. GET ALL USERS
+================================ */
 export const getUsers = async (req, res) => {
   try {
     const users = await User.getUsers();
-    res.status(201).json({
-      users: users.length,
-      usersList: users,
+    res.status(200).json({
+      total: users.length,
+      users,
       message: "Usuários encontrados",
-      status: 201,
+      status: 200,
       error: null,
     });
   } catch (error) {
@@ -27,13 +18,39 @@ export const getUsers = async (req, res) => {
   }
 };
 
+/* ===============================
+   2. GET USER BY ID
+================================ */
 export const getUserById = async (req, res) => {
   try {
     const user = await User.getUserById(req.params.id);
-    if (!user) return res.status(404).json({ error: "Usuário não encontrado" });
-    res.status.json({
+
+    if (!user) {
+      return res.status(404).json({
+        error: "Usuário não encontrado",
+      });
+    }
+
+    return res.status(200).json({
       user,
       message: "Usuário encontrado",
+      status: 200,
+      error: null,
+    });
+  } catch (error) {
+    return res.status(500).json({ error: error.message });
+  }
+};
+
+/* ===============================
+   3. CREATE USER
+================================ */
+export const createUser = async (req, res) => {
+  try {
+    await User.createUser(req.body);
+
+    res.status(201).json({
+      message: "Usuário criado com sucesso",
       status: 201,
       error: null,
     });
@@ -42,22 +59,43 @@ export const getUserById = async (req, res) => {
   }
 };
 
-export const updateUser = async (req, res) => {
+/* ===============================
+   4. DELETE USER
+================================ */
+export const deleteUser = async (req, res) => {
   try {
-    const user = await User.updateUser(req.params.id, req.body);
-    res.status(201).json({
-      message: "Usuário atualizado com sucesso",
-      status: 201,
+    const user = await User.getUserById(req.params.id);
+
+    if (!user) {
+      return res.status(404).json({
+        error: "Usuário não encontrado",
+      });
+    }
+
+    await User.deleteUser(req.params.id);
+
+    return res.status(200).json({
+      message: "Usuário deletado com sucesso",
+      status: 200,
+      error: null,
     });
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    return res.status(500).json({ error: error.message });
   }
 };
 
-export const deleteUser = async (req, res) => {
+/* ===============================
+   5. UPDATE USER
+================================ */
+export const updateUser = async (req, res) => {
   try {
-    await User.deleteUser(req.params.id);
-    res.json({ message: "Usuário removido com sucesso" });
+    await User.updateUser(req.params.id, req.body);
+
+    res.status(200).json({
+      message: "Usuário atualizado com sucesso",
+      status: 200,
+      error: null,
+    });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

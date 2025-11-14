@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+import cors from "cors";
 import userRoutes from "./src/routes/userRoutes.js";
 import itemRoutes from "./src/routes/itemRoutes.js";
 
@@ -12,6 +13,7 @@ const serverPort = process.env.PORT || 3001;
 app.get("/", (req, res) => {
   res.send("servidor funcionando");
 });
+app.use(cors());
 
 app.use("/users", userRoutes);
 app.use("/itens", itemRoutes);
