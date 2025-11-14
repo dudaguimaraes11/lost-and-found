@@ -7,25 +7,30 @@ const prisma = new PrismaClient();
 export const getItems = async (filters = {}) => {
   const { status, category, location } = filters;
 
-  const whereClause = {};
+  const result = {};
 
   if (status) {
-    whereClause.status = status;
+    result.status = status;
   }
 
   if (category) {
-    whereClause.category = category;
+    result.category = {
+      equals: category,
+      mode: "insensitive",
+      accentInsensitive: true,
+    };
   }
 
   if (location) {
-    whereClause.location = {
-      contains: location,
+    result.location = {
+      equals: location,
       mode: "insensitive",
+      accentInsensitive: true,
     };
   }
 
   return await prisma.item.findMany({
-    where: whereClause,
+    where: result,
     include: { owner: true, foundBy: true },
     orderBy: {
       createdAt: "desc",
@@ -56,6 +61,14 @@ export const createItem = async (data) => {
    4. DELETE ITEM
 ================================ */
 export const deleteItem = async (id) => {
+  const itemExists = await prisma.item.findUnique({
+    where: { id: Number(id) },
+  });
+
+  if (!itemExists) {
+    return { error: "Item não encontrado" };
+  }
+
   return await prisma.item.delete({
     where: { id: Number(id) },
   });
