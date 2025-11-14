@@ -3,7 +3,10 @@ import * as User from "../models/userModels.js";
 export const createUser = async (req, res) => {
   try {
     const user = await User.createUser(req.body);
-    res.status(201).json(user);
+    res.status(201).json({
+      message: "Usuário criado com sucesso",
+      status: 201,
+    });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
@@ -12,7 +15,13 @@ export const createUser = async (req, res) => {
 export const getUsers = async (req, res) => {
   try {
     const users = await User.getUsers();
-    res.json(users);
+    res.status(201).json({
+      users: users.length,
+      usersList: users,
+      message: "Usuários encontrados",
+      status: 201,
+      error: null,
+    });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
@@ -22,7 +31,12 @@ export const getUserById = async (req, res) => {
   try {
     const user = await User.getUserById(req.params.id);
     if (!user) return res.status(404).json({ error: "Usuário não encontrado" });
-    res.json(user);
+    res.status.json({
+      user,
+      message: "Usuário encontrado",
+      status: 201,
+      error: null,
+    });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
@@ -31,7 +45,10 @@ export const getUserById = async (req, res) => {
 export const updateUser = async (req, res) => {
   try {
     const user = await User.updateUser(req.params.id, req.body);
-    res.json(user);
+    res.status(201).json({
+      message: "Usuário atualizado com sucesso",
+      status: 201,
+    });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

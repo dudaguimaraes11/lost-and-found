@@ -37,7 +37,10 @@ export const getItemById = async (req, res) => {
       return res.status(404).json({
         message: "Item não encontrado",
       });
-    res.json(item);
+    res.status(200).json({
+      item,
+      message: "Item encontrado",
+    });
   } catch (error) {
     res.status(500).json({
       error: error.message,
