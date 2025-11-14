@@ -1,12 +1,12 @@
 import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
-export const createItem = async (data) => {
-  return await prisma.item.create({ data });
-};
-
+/* ===============================
+   1. GET ALL ITEMS
+================================ */
 export const getItems = async (filters = {}) => {
   const { status, category, location } = filters;
+
   const whereClause = {};
 
   if (status) {
@@ -33,6 +33,9 @@ export const getItems = async (filters = {}) => {
   });
 };
 
+/* ===============================
+   2. GET ITEM BY ID
+================================ */
 export const getItemById = async (id) => {
   return await prisma.item.findUnique({
     where: { id: Number(id) },
@@ -40,13 +43,30 @@ export const getItemById = async (id) => {
   });
 };
 
+/* ===============================
+   3. CREATE ITEM
+================================ */
+export const createItem = async (data) => {
+  return await prisma.item.create({
+    data,
+  });
+};
+
+/* ===============================
+   4. DELETE ITEM
+================================ */
+export const deleteItem = async (id) => {
+  return await prisma.item.delete({
+    where: { id: Number(id) },
+  });
+};
+
+/* ===============================
+   5. UPDATE ITEM
+================================ */
 export const updateItem = async (id, data) => {
   return await prisma.item.update({
     where: { id: Number(id) },
     data,
   });
-};
-
-export const deleteItem = async (id) => {
-  return await prisma.item.delete({ where: { id: Number(id) } });
 };

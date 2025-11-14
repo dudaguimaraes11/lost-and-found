@@ -1,80 +1,119 @@
 import * as Item from "../models/itemModel.js";
 
-export const createItem = async (req, res) => {
-  try {
-    const item = await Item.createItem(req.body);
-    res.status(201).json({
-      message: "Item criado com sucesso",
-    });
-  } catch (error) {
-    res.status(500).json({
-      error: error.message,
-      message: "Erro ao criar item",
-    });
-  }
-};
-
+/* ===============================
+   1. GET ALL ITEMS
+================================ */
 export const getAllItems = async (req, res) => {
   try {
     const items = await Item.getItems(req.query);
 
-    res.json({
+    return res.status(200).json({
       total: items.length,
-      items: items,
+      items,
+      message: "Itens encontrados",
+      status: 200,
+      error: null,
     });
   } catch (error) {
-    res.status(500).json({
+    return res.status(500).json({
       error: error.message,
       message: "Erro ao buscar itens",
     });
   }
 };
 
+/* ===============================
+   2. GET ITEM BY ID
+================================ */
 export const getItemById = async (req, res) => {
   try {
     const item = await Item.getItemById(req.params.id);
-    if (!item)
+
+    if (!item) {
       return res.status(404).json({
         message: "Item não encontrado",
       });
-    res.status(200).json({
+    }
+
+    return res.status(200).json({
       item,
       message: "Item encontrado",
+      status: 200,
+      error: null,
     });
   } catch (error) {
-    res.status(500).json({
+    return res.status(500).json({
       error: error.message,
       message: "Erro ao buscar item",
     });
   }
 };
 
-export const updateItem = async (req, res) => {
+/* ===============================
+   3. CREATE ITEM
+================================ */
+export const createItem = async (req, res) => {
   try {
-    const item = await Item.updateItem(req.params.id, req.body);
-    res.json({
-      message: "Item atualizado com sucesso",
-      item: item,
+    await Item.createItem(req.body);
+
+    return res.status(201).json({
+      message: "Item criado com sucesso",
+      status: 201,
+      error: null,
     });
   } catch (error) {
-    res.status(500).json({
+    return res.status(500).json({
       error: error.message,
-      // ✨ CORREÇÃO: Mensagem de erro adicionada
-      message: "Erro ao atualizar item",
+      message: "Erro ao criar item",
     });
   }
 };
 
+/* ===============================
+   4. DELETE ITEM
+================================ */
 export const deleteItem = async (req, res) => {
   try {
+    const item = await Item.getItemById(req.params.id);
+
+    if (!item) {
+      return res.status(404).json({
+        message: "Item não encontrado",
+      });
+    }
+
     await Item.deleteItem(req.params.id);
-    res.json({
+
+    return res.status(200).json({
       message: "Item deletado com sucesso",
+      status: 200,
+      error: null,
     });
   } catch (error) {
-    res.status(500).json({
+    return res.status(500).json({
       error: error.message,
       message: "Erro ao deletar item",
+    });
+  }
+};
+
+/* ===============================
+   5. UPDATE ITEM
+================================ */
+export const updateItem = async (req, res) => {
+  try {
+    const item = await Item.updateItem(req.params.id, req.body);
+
+    return res.status(200).json({
+      item,
+      message: "Item atualizado com sucesso",
+      status: 200,
+      error: null,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      error: error.message,
+      message: "Erro ao atualizar item",
     });
   }
 };
