@@ -5,12 +5,20 @@ const prisma = new PrismaClient();
    1. GET ALL ITEMS
 ================================ */
 export const getItems = async (filters = {}) => {
-  const { status, category, location } = filters;
+  const { status, category, location, title } = filters;
 
   const result = {};
 
   if (status) {
     result.status = status;
+  }
+
+  if (title) {
+    result.title = {
+      contains: title,
+      mode: "insensitive",
+      accentInsensitive: true,
+    };
   }
 
   if (category) {
