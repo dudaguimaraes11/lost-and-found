@@ -20,8 +20,8 @@ model User {
   createdAt  DateTime @default(now())
 
   // Relações
-  items Item[] @relation("ItemsCreated") // Itens cadastrados pelo usuário
-  found Item[] @relation("ItemsFound") // Itens encontrados pelo usuário
+  items Item[] @relation("ItemsCreated")
+  found Item[] @relation("ItemsFound")
 }
 
 model Item {

@@ -17,7 +17,6 @@ export const getItems = async (filters = {}) => {
     result.title = {
       contains: title,
       mode: "insensitive",
-      accentInsensitive: true,
     };
   }
 
@@ -25,7 +24,6 @@ export const getItems = async (filters = {}) => {
     result.category = {
       equals: category,
       mode: "insensitive",
-      accentInsensitive: true,
     };
   }
 
@@ -33,7 +31,6 @@ export const getItems = async (filters = {}) => {
     result.location = {
       equals: location,
       mode: "insensitive",
-      accentInsensitive: true,
     };
   }
 
