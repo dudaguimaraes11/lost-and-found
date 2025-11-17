@@ -1170,7 +1170,7 @@ async function main() {
       title: "Tênis Adidas (um pé)",
       description: "Pé esquerdo de um tênis Adidas Superstar, branco.",
       location: "Vestiário masculino",
-      imageUrl: "https://example.com/tenis-adidas.jpg",
+      imageUrl: "https://i.ibb.co/Ps9D2mh2/download.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 44,
@@ -1179,7 +1179,7 @@ async function main() {
       title: "Caderno de desenho",
       description: "Caderno grande, capa preta, com vários esboços.",
       location: "Sala 202",
-      imageUrl: "https://example.com/caderno-desenho.jpg",
+      imageUrl: "https://i.ibb.co/C5Jn9T03/download.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 45,
@@ -1494,7 +1494,7 @@ async function main() {
       title: "Livro 'O Hobbit'",
       description: "Edição de bolso, capa verde.",
       location: "Pátio",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/RThdR6WB/download.jpg",
       status: "PERDIDO",
       category: "Material Escolar", // Adicionado
       ownerId: 78,
@@ -1503,7 +1503,7 @@ async function main() {
       title: "Notebook (Capa)",
       description: "Capa de notebook preta, 15 polegadas, zíper quebrado.",
       location: "Sala 201",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/fVyhV959/download.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 79,
@@ -1513,7 +1513,7 @@ async function main() {
       title: "Chapéu (Preto)",
       description: "Chapéu de feltro preto, estilo 'Fedora'.",
       location: "Auditório",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/nNm5QFkB/download.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 80,
@@ -1522,7 +1522,7 @@ async function main() {
       title: "Controle de Ar Condicionado",
       description: "Controle universal, encontrado na sala 102.",
       location: "Sala 102",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/tM9tVFBG/download.jpg",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 81,
@@ -1532,7 +1532,7 @@ async function main() {
       title: "Tubo de cola (Bastão)",
       description: "Cola Pritt, grande. Perdida na biblioteca.",
       location: "Biblioteca",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/vytZ6Lx/download.jpg",
       status: "PERDIDO",
       category: "Material Escolar", // Adicionado
       ownerId: 82,
@@ -1541,7 +1541,7 @@ async function main() {
       title: "Apontador (com depósito)",
       description: "Apontador Faber-Castell, azul. Encontrado na sala 104.",
       location: "Sala 104",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/5XfHWYLx/Nivalmix-Apontador-com-Deposito-Azul-Faber-Castell-134702-002.webp.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 83,
@@ -1552,7 +1552,7 @@ async function main() {
       description:
         "Desodorante aerosol Rexona, masculino. Esquecido no vestiário.",
       location: "Vestiário masculino",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/931T4t24/desodorante-rexona-men-xtracool-masculino-aerossol-antitranspirante-150ml-6551-1-44d90e34bcc2cde8084.webp.jpg",
       status: "PERDIDO",
       category: "Outros", // Adicionado
       ownerId: 84,
@@ -1561,7 +1561,7 @@ async function main() {
       title: "Carimbo (Professor)",
       description: "Carimbo com o nome 'Prof. Helena M.'.",
       location: "Sala dos Professores",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/Fq8zDqHc/47x18-926x926.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 85,
@@ -1571,7 +1571,7 @@ async function main() {
       title: "Camisa Social (Branca)",
       description: "Camisa branca, tamanho G, dobrada. Perdida no auditório.",
       location: "Auditório",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/Zzt5y8by/camisa-social-branca-m-m-s-platina-mascu-01-01-0029.webp.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 86,
@@ -1580,7 +1580,7 @@ async function main() {
       title: "Garrafa de iogurte",
       description: "Garrafa de 'Yakult', encontrada vazia na sala 202.",
       location: "Sala 202",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/0LHgWKH/l-35ac16e8ee7e4ae99b7fd288d49e8969.jpg",
       status: "ENCONTRADO",
       category: "Recipientes", // Adicionado
       ownerId: 87,
@@ -1590,7 +1590,7 @@ async function main() {
       title: "Sapato social (preto)",
       description: "Sapato social masculino, pé direito, marca 'Democrata'.",
       location: "Estacionamento",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/7JZBpbYP/8fd12c9241.webp.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 88,
@@ -1599,7 +1599,7 @@ async function main() {
       title: "Grampeador",
       description: "Grampeador pequeno, preto. Encontrado na secretaria.",
       location: "Secretaria",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/HptVJf4L/download.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 89,
@@ -1609,7 +1609,7 @@ async function main() {
       title: "Pacote de bolachas (fechado)",
       description: "Pacote de 'Passatempo', recheio de chocolate.",
       location: "Cantina",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/bD8dzPp/download.jpg",
       status: "PERDIDO",
       category: "Outros", // Adicionado
       ownerId: 90,
@@ -1618,7 +1618,7 @@ async function main() {
       title: "Batom (vermelho)",
       description: "Batom da marca MAC, cor Ruby Woo. Encontrado no banheiro.",
       location: "Banheiro feminino",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/bgvWFNct/773602609963-a1-1500px.jpg",
       status: "ENCONTRADO",
       category: "Outros", // Adicionado
       ownerId: 91,
@@ -1628,7 +1628,7 @@ async function main() {
       title: "Mousepad",
       description: "Mousepad preto, simples. Perdido no Lab. de Informática.",
       location: "Lab. de Informática",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/7NyT369L/mouse-pad-home-office-preto-emborrachado-letron-74506-1.jpg",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 92,
@@ -1637,7 +1637,7 @@ async function main() {
       title: "Caneta (Marca-texto)",
       description: "Marca-texto amarelo, Faber-Castell.",
       location: "Biblioteca",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/TMhLhwhZ/caneta-marca-texto-grifpen-amarela-mt-amzf-faber-7685-1-b323db82a2a402cb20802bd317d28617.webp.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 93,
@@ -1647,7 +1647,7 @@ async function main() {
       title: "Touca de natação",
       description: "Touca de silicone preta, marca 'Speedo'.",
       location: "Vestiário masculino",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/TD225GNC/download.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 94,
@@ -1656,7 +1656,7 @@ async function main() {
       title: "Álcool em gel",
       description: "Frasco pequeno, com chaveiro, 'Giovanna Baby'.",
       location: "Pátio",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/Jj2F8Vkk/download.jpg",
       status: "ENCONTRADO",
       category: "Outros", // Adicionado
       ownerId: 95,
@@ -1666,7 +1666,7 @@ async function main() {
       title: "Óculos de natação",
       description: "Óculos Speedo, lente azul.",
       location: "Vestiário masculino",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/fz9MCkR4/74156602-A7.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 96,
@@ -1675,7 +1675,7 @@ async function main() {
       title: "Dinheiro (R$ 50,00)",
       description: "Uma nota de R$ 50,00 encontrada no corredor.",
       location: "Corredor principal",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/pBtCL18r/05ea2f7cfc.webp.jpg",
       status: "ENCONTRADO",
       category: "Outros", // Adicionado
       ownerId: 97,
@@ -1685,7 +1685,7 @@ async function main() {
       title: "Caderneta (tipo Moleskine)",
       description: "Caderneta preta, pequena, com elástico.",
       location: "Refeitório",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/fVZXDSFG/Caneta-Plastica-Paquimetro-Multifuncoes-11924-1591289213.jpg",
       status: "PERDIDO",
       category: "Material Escolar", // Adicionado
       ownerId: 98,
@@ -1694,7 +1694,7 @@ async function main() {
       title: "Band-aid (caixa)",
       description: "Caixa de Band-aid, quase cheia. Encontrada no ginásio.",
       location: "Ginásio",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/hFJtKSP9/download.jpg",
       status: "ENCONTRADO",
       category: "Outros", // Adicionado
       ownerId: 99,
@@ -1704,7 +1704,7 @@ async function main() {
       title: "Anel (Bijuteria)",
       description: "Anel de metal prateado com pedra falsa (verde).",
       location: "Banheiro feminino",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/fzB0kNhZ/download.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 100,
