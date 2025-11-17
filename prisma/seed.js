@@ -968,7 +968,7 @@ async function main() {
       title: "Boné vermelho Nike",
       description: "Boné de aba curva, logo branco. Encontrado no ginásio.",
       location: "Ginásio",
-      imageUrl: "https://i.ibb.co/8DSzY9xP/images.jpg",
+      imageUrl: "https://example.com/bone-nike.jpg",
       status: "ENCONTRADO",
       category: "Vestuário", // Adicionado
       ownerId: 23,
@@ -997,7 +997,7 @@ async function main() {
       title: "Brinco de argola dourado",
       description: "Um brinco de argola (par perdido).",
       location: "Banheiro feminino",
-      imageUrl: "https://i.ibb.co/1Y2DktX1/brinco-argola-dourada-lisa-media-21-63d02c11731b63844816810775783336-1024-1024.webp.jpg",
+      imageUrl: "https://example.com/brinco-argola.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 26,
@@ -1170,7 +1170,7 @@ async function main() {
       title: "Tênis Adidas (um pé)",
       description: "Pé esquerdo de um tênis Adidas Superstar, branco.",
       location: "Vestiário masculino",
-      imageUrl: "https://i.ibb.co/Ps9D2mh2/download.jpg",
+      imageUrl: "https://example.com/tenis-adidas.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 44,
@@ -1179,7 +1179,7 @@ async function main() {
       title: "Caderno de desenho",
       description: "Caderno grande, capa preta, com vários esboços.",
       location: "Sala 202",
-      imageUrl: "https://i.ibb.co/C5Jn9T03/download.jpg",
+      imageUrl: "https://example.com/caderno-desenho.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 45,
@@ -1227,7 +1227,7 @@ async function main() {
       title: "Chaveiro (abridor)",
       description: "Chaveiro de metal em formato de abridor de garrafa.",
       location: "Refeitório",
-      imageUrl: "https://i.ibb.co/bjNZN0Bh/download.jpg",
+      imageUrl: "https://example.com/chaveiro-abridor.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 50,
@@ -1256,7 +1256,7 @@ async function main() {
       title: "Controle de portão",
       description: "Controle preto, marca PPA. Encontrado no estacionamento.",
       location: "Estacionamento",
-      imageUrl: "https://example.com/controle-portao.jpg",
+      imageUrl: "https://i.ibb.co/Mk7c477x/download.jpg",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 53,
@@ -1266,7 +1266,7 @@ async function main() {
       title: "Powerbank",
       description: "Carregador portátil preto, marca Xiaomi.",
       location: "Sala 101",
-      imageUrl: "https://example.com/powerbank-xiaomi.jpg",
+      imageUrl: "https://i.ibb.co/PGGJkq1G/download.jpg",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 54,
@@ -1275,7 +1275,7 @@ async function main() {
       title: "Presilha de cabelo",
       description: "Presilha grande (piranha), cor tartaruga.",
       location: "Banheiro feminino",
-      imageUrl: "https://example.com/presilha.jpg",
+      imageUrl: "https://i.ibb.co/1J7sfHJ4/images.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 55,
@@ -1285,7 +1285,7 @@ async function main() {
       title: "Cartão de transporte (Bilhete Único)",
       description: "Cartão de estudante, nome 'Mariana G.'.",
       location: "Pátio",
-      imageUrl: "https://example.com/bilhete-unico.jpg",
+      imageUrl: "https://i.ibb.co/gLM3J1mL/download.jpg",
       status: "PERDIDO",
       category: "Documentos", // Adicionado
       ownerId: 56,
@@ -1294,7 +1294,7 @@ async function main() {
       title: "Marmita (Tupperware)",
       description: "Pote de vidro com tampa verde, encontrado no refeitório.",
       location: "Refeitório",
-      imageUrl: "https://example.com/marmita.jpg",
+      imageUrl: "https://i.ibb.co/fYB0cT4N/download.jpg",
       status: "ENCONTRADO",
       category: "Recipientes", // Adicionado
       ownerId: 57,
@@ -1304,7 +1304,7 @@ async function main() {
       title: "Protetor labial",
       description: "Nivea azul, perdido na cantina.",
       location: "Cantina",
-      imageUrl: "https://example.com/protetor-labial.jpg",
+      imageUrl: "https://i.ibb.co/G3NyBYDP/download.jpg",
       status: "PERDIDO",
       category: "Outros", // Adicionado
       ownerId: 58,
@@ -1313,7 +1313,7 @@ async function main() {
       title: "HD Externo",
       description: "HD Externo Seagate 1TB, cabo azul.",
       location: "Lab. de Informática",
-      imageUrl: "https://example.com/hd-externo.jpg",
+      imageUrl: "https://i.ibb.co/4ZMhnKMr/download.jpg",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 59,
@@ -1323,7 +1323,7 @@ async function main() {
       title: "Par de luvas (preto)",
       description: "Luvas de lã pretas, tamanho único.",
       location: "Corredor principal",
-      imageUrl: "https://example.com/luvas-pretas.jpg",
+      imageUrl: "https://i.ibb.co/SDHs4TXQ/download.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 60,
@@ -1332,7 +1332,7 @@ async function main() {
       title: "Moeda (antiga)",
       description: "Moeda de 1 real das Olimpíadas (Boxe).",
       location: "Pátio",
-      imageUrl: "https://example.com/moeda-olimpiadas.jpg",
+      imageUrl: "https://i.ibb.co/gbLWn3tf/download.jpg",
       status: "ENCONTRADO",
       category: "Outros", // Adicionado
       ownerId: 61,
@@ -1342,7 +1342,7 @@ async function main() {
       title: "Violão (Capa)",
       description: "Capa de violão preta, vazia. Esquecida no auditório.",
       location: "Auditório",
-      imageUrl: "https://example.com/capa-violao.jpg",
+      imageUrl: "https://i.ibb.co/x8CyK1CR/download.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 62,
@@ -1351,7 +1351,7 @@ async function main() {
       title: "Escova de cabelo",
       description: "Escova tipo raquete, cor rosa.",
       location: "Vestiário feminino",
-      imageUrl: "https://example.com/escova-cabelo.jpg",
+      imageUrl: "https://i.ibb.co/8LQBzBtn/download.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 63,
@@ -1361,7 +1361,7 @@ async function main() {
       title: "Crachá (sem identificação)",
       description: "Crachá de visitante, número 042.",
       location: "Entrada principal",
-      imageUrl: "https://example.com/cracha-visitante.jpg",
+      imageUrl: "https://i.ibb.co/zVBcjCKM/download.jpg",
       status: "PERDIDO",
       category: "Documentos", // Adicionado
       ownerId: 64,
@@ -1370,7 +1370,7 @@ async function main() {
       title: "Livro da Biblioteca",
       description: "Livro '1984', com etiqueta da biblioteca.",
       location: "Sala 102",
-      imageUrl: "https://example.com/livro-1984.jpg",
+      imageUrl: "https://i.ibb.co/Txr1pPs9/download.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 65,
@@ -1380,7 +1380,7 @@ async function main() {
       title: "Copo Stanley (Verde)",
       description: "Copo térmico verde, com tampa. Perdido na quadra.",
       location: "Quadra",
-      imageUrl: "https://example.com/copo-stanley.jpg",
+      imageUrl: "https://i.ibb.co/5gqYbjRJ/download.jpg",
       status: "PERDIDO",
       category: "Recipientes", // Adicionado
       ownerId: 66,
@@ -1389,7 +1389,7 @@ async function main() {
       title: "Bola de vôlei",
       description: "Bola Mikasa, encontrada no ginásio após o horário.",
       location: "Ginásio",
-      imageUrl: "https://example.com/bola-volei.jpg",
+      imageUrl: "https://i.ibb.co/kgp91St8/download.jpg",
       status: "ENCONTRADO",
       category: "Outros", // Adicionado
       ownerId: 67,
@@ -1399,7 +1399,7 @@ async function main() {
       title: "Adaptador de tomada",
       description: "Adaptador universal, branco.",
       location: "Sala 301",
-      imageUrl: "https://example.com/adaptador-tomada.jpg",
+      imageUrl: "https://i.ibb.co/JRkFd0N6/download.jpg",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 68,
@@ -1408,7 +1408,7 @@ async function main() {
       title: "Maço de cigarros (fechado)",
       description: "Maço de Marlboro vermelho, encontrado no estacionamento.",
       location: "Estacionamento",
-      imageUrl: "https://example.com/maco-cigarro.jpg",
+      imageUrl: "https://i.ibb.co/mr92HtwC/download.jpg",
       status: "ENCONTRADO",
       category: "Outros", // Adicionado
       ownerId: 69,
@@ -1418,7 +1418,7 @@ async function main() {
       title: "Óculos de sol (Oakley)",
       description: "Modelo esportivo, armação preta, lente espelhada.",
       location: "Quadra",
-      imageUrl: "https://example.com/oculos-oakley.jpg",
+      imageUrl: "https://i.ibb.co/LdS44R6x/download.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 70,
@@ -1427,7 +1427,7 @@ async function main() {
       title: "Camiseta de time (Corinthians)",
       description: "Camiseta preta, número 10. Encontrada no vestiário.",
       location: "Vestiário masculino",
-      imageUrl: "https://example.com/camiseta-corinthians.jpg",
+      imageUrl: "https://i.ibb.co/PskKGJGV/download.jpg",
       status: "ENCONTRADO",
       category: "Vestuário", // Adicionado
       ownerId: 71,
@@ -1437,7 +1437,7 @@ async function main() {
       title: "Fones de ouvido (com fio, genérico)",
       description: "Fones pretos, simples, marca 'Inova'.",
       location: "Biblioteca",
-      imageUrl: "https://example.com/fone-generico.jpg",
+      imageUrl: "https://i.ibb.co/mCcWvPc3/download.jpg",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 72,
@@ -1446,7 +1446,7 @@ async function main() {
       title: "Relógio de pulso (Analógico)",
       description: "Relógio dourado, marca 'Orient', pulseira de metal.",
       location: "Banheiro masculino",
-      imageUrl: "https://example.com/relogio-orient.jpg",
+      imageUrl: "https://i.ibb.co/YFKN0xTD/download.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 73,
@@ -1456,7 +1456,7 @@ async function main() {
       title: "Garrafa de café (térmica)",
       description: "Garrafa de inox, 500ml, com café dentro.",
       location: "Sala dos Professores",
-      imageUrl: "https://example.com/garrafa-cafe.jpg",
+      imageUrl: "https://i.ibb.co/v6GK0PJ6/download.jpg",
       status: "PERDIDO",
       category: "Recipientes", // Adicionado
       ownerId: 74,
@@ -1465,7 +1465,7 @@ async function main() {
       title: "Chaveiro (Pelúcia)",
       description: "Chaveiro do Pikachu, encontrado no corredor B.",
       location: "Corredor B",
-      imageUrl: "https://example.com/chaveiro-pikachu.jpg",
+      imageUrl: "https://i.ibb.co/HLsFKyPG/download.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 75,
@@ -1475,7 +1475,7 @@ async function main() {
       title: "Isqueiro (Bic)",
       description: "Isqueiro azul, perdido perto da entrada.",
       location: "Entrada principal",
-      imageUrl: "https://example.com/isqueiro-bic.jpg",
+      imageUrl: "https://i.ibb.co/HT7ZV3Ly/download.jpg",
       status: "PERDIDO",
       category: "Outros", // Adicionado
       ownerId: 76,
@@ -1484,7 +1484,7 @@ async function main() {
       title: "Câmera (Instax Mini)",
       description: "Câmera instantânea rosa, encontrada na cantina.",
       location: "Cantina",
-      imageUrl: "https://example.com/instax-mini.jpg",
+      imageUrl: "https://i.ibb.co/zWbvx8GY/download.jpg",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 77,
@@ -1494,7 +1494,7 @@ async function main() {
       title: "Livro 'O Hobbit'",
       description: "Edição de bolso, capa verde.",
       location: "Pátio",
-      imageUrl: "https://example.com/livro-hobbit.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Material Escolar", // Adicionado
       ownerId: 78,
@@ -1503,7 +1503,7 @@ async function main() {
       title: "Notebook (Capa)",
       description: "Capa de notebook preta, 15 polegadas, zíper quebrado.",
       location: "Sala 201",
-      imageUrl: "https://example.com/capa-notebook.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 79,
@@ -1513,7 +1513,7 @@ async function main() {
       title: "Chapéu (Preto)",
       description: "Chapéu de feltro preto, estilo 'Fedora'.",
       location: "Auditório",
-      imageUrl: "https://example.com/chapeu-fedora.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 80,
@@ -1522,7 +1522,7 @@ async function main() {
       title: "Controle de Ar Condicionado",
       description: "Controle universal, encontrado na sala 102.",
       location: "Sala 102",
-      imageUrl: "https://example.com/controle-ar.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 81,
@@ -1532,7 +1532,7 @@ async function main() {
       title: "Tubo de cola (Bastão)",
       description: "Cola Pritt, grande. Perdida na biblioteca.",
       location: "Biblioteca",
-      imageUrl: "https://example.com/cola-pritt.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Material Escolar", // Adicionado
       ownerId: 82,
@@ -1541,7 +1541,7 @@ async function main() {
       title: "Apontador (com depósito)",
       description: "Apontador Faber-Castell, azul. Encontrado na sala 104.",
       location: "Sala 104",
-      imageUrl: "https://example.com/apontador.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 83,
@@ -1552,7 +1552,7 @@ async function main() {
       description:
         "Desodorante aerosol Rexona, masculino. Esquecido no vestiário.",
       location: "Vestiário masculino",
-      imageUrl: "https://example.com/desodorante.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Outros", // Adicionado
       ownerId: 84,
@@ -1561,7 +1561,7 @@ async function main() {
       title: "Carimbo (Professor)",
       description: "Carimbo com o nome 'Prof. Helena M.'.",
       location: "Sala dos Professores",
-      imageUrl: "https://example.com/carimbo.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 85,
@@ -1571,7 +1571,7 @@ async function main() {
       title: "Camisa Social (Branca)",
       description: "Camisa branca, tamanho G, dobrada. Perdida no auditório.",
       location: "Auditório",
-      imageUrl: "https://example.com/camisa-social.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 86,
@@ -1580,7 +1580,7 @@ async function main() {
       title: "Garrafa de iogurte",
       description: "Garrafa de 'Yakult', encontrada vazia na sala 202.",
       location: "Sala 202",
-      imageUrl: "https://example.com/yakult.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Recipientes", // Adicionado
       ownerId: 87,
@@ -1590,7 +1590,7 @@ async function main() {
       title: "Sapato social (preto)",
       description: "Sapato social masculino, pé direito, marca 'Democrata'.",
       location: "Estacionamento",
-      imageUrl: "https://example.com/sapato-social.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 88,
@@ -1599,7 +1599,7 @@ async function main() {
       title: "Grampeador",
       description: "Grampeador pequeno, preto. Encontrado na secretaria.",
       location: "Secretaria",
-      imageUrl: "https://example.com/grampeador.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 89,
@@ -1609,7 +1609,7 @@ async function main() {
       title: "Pacote de bolachas (fechado)",
       description: "Pacote de 'Passatempo', recheio de chocolate.",
       location: "Cantina",
-      imageUrl: "https://example.com/bolacha.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Outros", // Adicionado
       ownerId: 90,
@@ -1618,7 +1618,7 @@ async function main() {
       title: "Batom (vermelho)",
       description: "Batom da marca MAC, cor Ruby Woo. Encontrado no banheiro.",
       location: "Banheiro feminino",
-      imageUrl: "https://example.com/batom-mac.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Outros", // Adicionado
       ownerId: 91,
@@ -1628,7 +1628,7 @@ async function main() {
       title: "Mousepad",
       description: "Mousepad preto, simples. Perdido no Lab. de Informática.",
       location: "Lab. de Informática",
-      imageUrl: "https://example.com/mousepad.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 92,
@@ -1637,7 +1637,7 @@ async function main() {
       title: "Caneta (Marca-texto)",
       description: "Marca-texto amarelo, Faber-Castell.",
       location: "Biblioteca",
-      imageUrl: "https://example.com/marca-texto.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 93,
@@ -1647,7 +1647,7 @@ async function main() {
       title: "Touca de natação",
       description: "Touca de silicone preta, marca 'Speedo'.",
       location: "Vestiário masculino",
-      imageUrl: "https://example.com/touca-natacao.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 94,
@@ -1656,7 +1656,7 @@ async function main() {
       title: "Álcool em gel",
       description: "Frasco pequeno, com chaveiro, 'Giovanna Baby'.",
       location: "Pátio",
-      imageUrl: "https://example.com/alcool-gel.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Outros", // Adicionado
       ownerId: 95,
@@ -1666,7 +1666,7 @@ async function main() {
       title: "Óculos de natação",
       description: "Óculos Speedo, lente azul.",
       location: "Vestiário masculino",
-      imageUrl: "https://example.com/oculos-natacao.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 96,
@@ -1675,7 +1675,7 @@ async function main() {
       title: "Dinheiro (R$ 50,00)",
       description: "Uma nota de R$ 50,00 encontrada no corredor.",
       location: "Corredor principal",
-      imageUrl: "https://example.com/dinheiro-50.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Outros", // Adicionado
       ownerId: 97,
@@ -1685,7 +1685,7 @@ async function main() {
       title: "Caderneta (tipo Moleskine)",
       description: "Caderneta preta, pequena, com elástico.",
       location: "Refeitório",
-      imageUrl: "https://example.com/moleskine.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Material Escolar", // Adicionado
       ownerId: 98,
@@ -1694,7 +1694,7 @@ async function main() {
       title: "Band-aid (caixa)",
       description: "Caixa de Band-aid, quase cheia. Encontrada no ginásio.",
       location: "Ginásio",
-      imageUrl: "https://example.com/band-aid.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Outros", // Adicionado
       ownerId: 99,
@@ -1704,7 +1704,7 @@ async function main() {
       title: "Anel (Bijuteria)",
       description: "Anel de metal prateado com pedra falsa (verde).",
       location: "Banheiro feminino",
-      imageUrl: "https://i.ibb.co/hxghpLMQ/anel-sites-de-bijuteria.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 100,
@@ -1715,7 +1715,7 @@ async function main() {
       description:
         "Powerbank branco da marca 'Baseus', deixado na sala de estudos.",
       location: "Sala de Estudos",
-      imageUrl: "https://example.com/powerbank-baseus.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 1, // Corrigido (era 101)
@@ -1726,7 +1726,7 @@ async function main() {
       description:
         "Crachá de aluno com foto, nome 'Lucas R.'. Perdido no corredor principal.",
       location: "Corredor principal",
-      imageUrl: "https://example.com/cracha-lucas.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Documentos", // Adicionado
       ownerId: 2, // Corrigido (era 102)
@@ -1736,7 +1736,7 @@ async function main() {
       description:
         "Livro de capa mole, edição da 'Biblioteca Azul'. Encontrado no pátio.",
       location: "Pátio",
-      imageUrl: "https://example.com/livro-admiravel.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 3, // Corrigido (era 103)
@@ -1747,7 +1747,7 @@ async function main() {
       description:
         "Máscara reutilizável azul, com elásticos para as orelhas. Perdida na cantina.",
       location: "Cantina",
-      imageUrl: "https://example.com/mascara-tecido.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 4, // Corrigido (era 104)
@@ -1757,7 +1757,7 @@ async function main() {
       description:
         "Garrafa térmica prata, capacidade de 750ml. Encontrada na sala dos professores.",
       location: "Sala dos Professores",
-      imageUrl: "https://example.com/garrafa-termica.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Recipientes", // Adicionado
       ownerId: 5, // Corrigido (era 105)
@@ -1768,7 +1768,7 @@ async function main() {
       description:
         "Caderno de capa dura azul, com adesivos na capa. Esquecido na sala 203.",
       location: "Sala 203",
-      imageUrl: "https://example.com/caderno-capa-dura.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Material Escolar", // Adicionado
       ownerId: 6, // Corrigido (era 106)
@@ -1779,7 +1779,7 @@ async function main() {
       description:
         "Fone de ouvido preto, modelo 'TWS'. Encontrado no laboratório de informática.",
       location: "Lab. de Informática",
-      imageUrl: "https://example.com/fone-bluetooth.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 7, // Corrigido (era 107)
@@ -1790,7 +1790,7 @@ async function main() {
       description:
         "Relógio digital preto da marca Casio, com pulseira de borracha. Perdido no vestiário.",
       location: "Vestiário",
-      imageUrl: "https://example.com/relogio-casio.jpg",
+      imageUrl: "",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 8, // Corrigido (era 108)
@@ -1801,7 +1801,7 @@ async function main() {
       description:
         "Mochila preta com detalhes vermelhos, marca 'Nike'. Encontrada no pátio.",
       location: "Pátio",
-      imageUrl: "https://example.com/mochila.jpg",
+      imageUrl: "",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 9, // Corrigido (era 109)
