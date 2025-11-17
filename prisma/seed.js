@@ -822,7 +822,7 @@ async function main() {
       description:
         "Garrafinha térmica rosa claro, 1 litro. Encontrada na cantina no dia 15/09 (manhã).",
       location: "Cantina",
-      imageUrl: "https://example.com/garrafinha-lululemon.jpg",
+      imageUrl: "https://i.ibb.co/PswyBTwL/sg-11134201-23020-krw66rsukbnv61.jpg",
       status: "ENCONTRADO",
       category: "Recipientes", // Adicionado
       ownerId: 1,
@@ -832,7 +832,7 @@ async function main() {
       title: "Mochila preta Nike",
       description: "Mochila preta com zíper vermelho e etiqueta escolar.",
       location: "Biblioteca",
-      imageUrl: "https://example.com/mochila-nike.jpg",
+      imageUrl: "https://i.ibb.co/XxZ3bbhP/download.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 3,
@@ -842,7 +842,7 @@ async function main() {
       description:
         "Carteira de couro marrom com cartões e documentos pessoais.",
       location: "Pátio",
-      imageUrl: "https://example.com/carteira.jpg",
+      imageUrl: "https://i.ibb.co/N6dwmXJ2/683130650720739485-slsjij.webp.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 4,
@@ -852,7 +852,7 @@ async function main() {
       title: "Fone de ouvido JBL preto",
       description: "Fone JBL sem fio esquecido no laboratório de informática.",
       location: "Lab. de Informática",
-      imageUrl: "https://example.com/fone-jbl.jpg",
+      imageUrl: "https://i.ibb.co/wrJPdYHp/fone-de-ouvido-bluetooth-jbl-tune-buds-1001723.jpg",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 6,
@@ -861,7 +861,7 @@ async function main() {
       title: "Caderno azul com espiral",
       description: "Caderno azul com etiqueta do SENAI na capa.",
       location: "Sala 104",
-      imageUrl: "https://example.com/caderno.jpg",
+      imageUrl: "https://i.ibb.co/8nLdfDSg/caderno-inteligente-universitario-dac-vision-10-materias-com-folhas-tira-e-poe-azul-3995-3093-1-6f10.webp.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 7,
@@ -871,7 +871,7 @@ async function main() {
       title: "Chave com chaveiro vermelho",
       description: "Chave pequena com chaveiro em formato de bola.",
       location: "Corredor principal",
-      imageUrl: "https://example.com/chave.jpg",
+      imageUrl: "https://i.ibb.co/zTqBrYsK/12253219-chave-com-chaveiro-vermelho-sobre-fundo-de-madeira-foto.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 9,
@@ -881,7 +881,7 @@ async function main() {
       title: "Casaco cinza Adidas",
       description: "Casaco de moletom cinza, tamanho M.",
       location: "Cantina",
-      imageUrl: "https://example.com/casaco.jpg",
+      imageUrl: "https://i.ibb.co/60hz8zYW/41y-Gqr-Ym-Bu-L-AC.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 11,
@@ -890,7 +890,7 @@ async function main() {
       title: "Pen drive Sandisk 32GB",
       description: "Pen drive preto Sandisk, encontrado na sala de aula.",
       location: "Sala 201",
-      imageUrl: "https://example.com/pendrive.jpg",
+      imageUrl: "https://i.ibb.co/chBHfqnG/download.jpg",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 12,
@@ -900,7 +900,7 @@ async function main() {
       title: "Óculos de grau preto",
       description: "Óculos de grau com armação escura, deixado no banheiro.",
       location: "Banheiro feminino",
-      imageUrl: "https://example.com/oculos.jpg",
+      imageUrl: "https://i.ibb.co/0y5SPq0r/oculos-de-grau-feminino-preto-polaroid-d432-807-3060fd4552196b3de0b062a12c622ee6.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 14,
@@ -910,7 +910,7 @@ async function main() {
       title: "Relógio digital Casio",
       description: "Relógio preto Casio esquecido no vestiário.",
       location: "Vestiário masculino",
-      imageUrl: "https://example.com/relogio.jpg",
+      imageUrl: "https://i.ibb.co/0jz0sX7p/relogio-casio-digital-masculino-w-800hg-9avdf-preto-557-1-a84263940454fe183dc1075ca5effa08.webp.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 16,
@@ -920,7 +920,7 @@ async function main() {
       title: "Carregador de celular Samsung",
       description: "Carregador branco, tipo C. Perdido perto do auditório.",
       location: "Auditório",
-      imageUrl: "https://example.com/carregador-samsung.jpg",
+      imageUrl: "https://i.ibb.co/84fS9kqP/569c0050a261b0bb0f2f6569fd64da08.jpg",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 18,
@@ -929,7 +929,7 @@ async function main() {
       title: "Livro 'Cálculo I'",
       description: "Livro de capa azul, encontrado na biblioteca.",
       location: "Biblioteca",
-      imageUrl: "https://example.com/livro-calculo.jpg",
+      imageUrl: "https://i.ibb.co/Kcs2BJf6/719fa-Yrl-Ed-L.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 19,
@@ -940,7 +940,7 @@ async function main() {
       description:
         "Guarda-chuva grande, cabo de madeira. Esquecido na entrada.",
       location: "Entrada principal",
-      imageUrl: "https://example.com/guarda-chuva.jpg",
+      imageUrl: "https://i.ibb.co/c0CzG8J/download.jpg",
       status: "PERDIDO",
       category: "Outros", // Adicionado
       ownerId: 20,
@@ -949,7 +949,7 @@ async function main() {
       title: "Calculadora científica HP",
       description: "Calculadora científica cinza, encontrada na sala 202.",
       location: "Sala 202",
-      imageUrl: "https://example.com/calculadora-hp.jpg",
+      imageUrl: "https://i.ibb.co/bRjZ5Yxq/download.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 21,
@@ -959,7 +959,7 @@ async function main() {
       title: "Estojo rosa Tilibra",
       description: "Estojo rosa com muitos adesivos.",
       location: "Pátio",
-      imageUrl: "https://example.com/estojo-rosa.jpg",
+      imageUrl: "https://i.ibb.co/0RjZ614s/252335572e9f0b78bce.webp.jpg",
       status: "PERDIDO",
       category: "Material Escolar", // Adicionado
       ownerId: 22,
@@ -968,7 +968,7 @@ async function main() {
       title: "Boné vermelho Nike",
       description: "Boné de aba curva, logo branco. Encontrado no ginásio.",
       location: "Ginásio",
-      imageUrl: "https://example.com/bone-nike.jpg",
+      imageUrl: "https://i.ibb.co/8DSzY9xP/images.jpg",
       status: "ENCONTRADO",
       category: "Vestuário", // Adicionado
       ownerId: 23,
@@ -978,7 +978,7 @@ async function main() {
       title: "Chaves do carro (VW)",
       description: "Chave canivete Volkswagen com chaveiro do Star Wars.",
       location: "Estacionamento",
-      imageUrl: "https://example.com/chave-vw.jpg",
+      imageUrl: "https://i.ibb.co/Mk7DMpLZ/controle-vnp-47-1-4c977a400496e980e5aa8d61679c2198.webp.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 24,
@@ -987,7 +987,7 @@ async function main() {
       title: "Agenda 2024 preta",
       description: "Agenda de capa dura preta, encontrada na sala 101.",
       location: "Sala 101",
-      imageUrl: "https://example.com/agenda-preta.jpg",
+      imageUrl: "https://i.ibb.co/nqG2vzWc/D-NQ-NP-794953-MLU78799026787-082024-O.webp.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 25,
@@ -997,7 +997,7 @@ async function main() {
       title: "Brinco de argola dourado",
       description: "Um brinco de argola (par perdido).",
       location: "Banheiro feminino",
-      imageUrl: "https://example.com/brinco-argola.jpg",
+      imageUrl: "https://i.ibb.co/1Y2DktX1/brinco-argola-dourada-lisa-media-21-63d02c11731b63844816810775783336-1024-1024.webp.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 26,
@@ -1006,7 +1006,7 @@ async function main() {
       title: "Pulseira de prata",
       description: "Pulseira fina com um pequeno pingente de coração.",
       location: "Refeitório",
-      imageUrl: "https://example.com/pulseira-prata.jpg",
+      imageUrl: "https://i.ibb.co/DHv7pkR8/pulseira-de-prata-infinito-com-zirconias-d359f379c4f954b99789a97d9fd70575.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 27,
@@ -1016,7 +1016,7 @@ async function main() {
       title: "Anel de formatura",
       description: "Anel com pedra azul, inscrição interna 'A.L. 2023'.",
       location: "Vestiário masculino",
-      imageUrl: "https://example.com/anel-formatura.jpg",
+      imageUrl: "https://i.ibb.co/HfrPHsnL/images.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 28,
@@ -1025,7 +1025,7 @@ async function main() {
       title: "Óculos de sol Ray-Ban",
       description: "Modelo Aviador, armação dourada, lente verde.",
       location: "Quadra",
-      imageUrl: "https://example.com/oculos-rayban.jpg",
+      imageUrl: "https://i.ibb.co/kV8Tm02s/download.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 29,
@@ -1035,7 +1035,7 @@ async function main() {
       title: "Pasta de couro sintético",
       description: "Pasta preta com zíper, perdida na secretaria.",
       location: "Secretaria",
-      imageUrl: "https://example.com/pasta-couro.jpg",
+      imageUrl: "https://i.ibb.co/rYNSh5X/download.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 30,
@@ -1044,7 +1044,7 @@ async function main() {
       title: "Uniforme (Jaleco)",
       description: "Jaleco branco com logo do SENAI, bolso manchado de caneta.",
       location: "Lab. de Química",
-      imageUrl: "https://example.com/jaleco.jpg",
+      imageUrl: "https://i.ibb.co/mC5YPnxr/download.jpg",
       status: "ENCONTRADO",
       category: "Vestuário", // Adicionado
       ownerId: 31,
@@ -1054,7 +1054,7 @@ async function main() {
       title: "Squeeze azul",
       description: "Garrafa de água azul, 500 ml, com adesivo 'Hydrate'.",
       location: "Ginásio",
-      imageUrl: "https://example.com/squeeze-azul.jpg",
+      imageUrl: "https://i.ibb.co/tprfkfrn/download.jpg",
       status: "PERDIDO",
       category: "Recipientes", // Adicionado
       ownerId: 32,
@@ -1063,7 +1063,7 @@ async function main() {
       title: "Caixa de som Bluetooth JBL (Go)",
       description: "Caixinha de som preta, modelo JBL Go. Encontrada no pátio.",
       location: "Pátio",
-      imageUrl: "https://example.com/jbl-go.jpg",
+      imageUrl: "https://i.ibb.co/s9rpT1Lt/download.jpg",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 33,
@@ -1073,7 +1073,7 @@ async function main() {
       title: "Tablet Samsung",
       description: "Tablet com capa rosa, tela trincada no canto.",
       location: "Biblioteca",
-      imageUrl: "https://example.com/tablet-samsung.jpg",
+      imageUrl: "https://i.ibb.co/0T0jhNr/download.jpg",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 34,
@@ -1083,7 +1083,7 @@ async function main() {
       description:
         "Carregador de notebook Dell (ponta fina), encontrado na sala 301.",
       location: "Sala 301",
-      imageUrl: "https://example.com/carregador-dell.jpg",
+      imageUrl: "https://i.ibb.co/21vPB8TR/download.jpg",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 35,
@@ -1094,7 +1094,7 @@ async function main() {
       description:
         "Mouse preto, pequeno, perdido no laboratório de informática.",
       location: "Lab. de Informática",
-      imageUrl: "https://example.com/mouse-logitech.jpg",
+      imageUrl: "https://i.ibb.co/99sPbyrk/download.jpg",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 36,
@@ -1103,7 +1103,7 @@ async function main() {
       title: "Teclado mecânico",
       description: "Teclado com luzes RGB, encontrado na sala 201.",
       location: "Sala 201",
-      imageUrl: "https://example.com/teclado-mecanico.jpg",
+      imageUrl: "https://i.ibb.co/rKFCMgGJ/download.jpg",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 37,
@@ -1113,7 +1113,7 @@ async function main() {
       title: "Jaqueta jeans",
       description: "Jaqueta jeans clara, tamanho P, com botons.",
       location: "Cantina",
-      imageUrl: "https://example.com/jaqueta-jeans.jpg",
+      imageUrl: "https://i.ibb.co/CKCC3rMV/download.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 38,
@@ -1122,7 +1122,7 @@ async function main() {
       title: "Livro 'O Pequeno Príncipe'",
       description: "Edição de capa dura, encontrado no corredor B.",
       location: "Corredor B",
-      imageUrl: "https://example.com/pequeno-principe.jpg",
+      imageUrl: "https://i.ibb.co/wZhSBfkD/download.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 39,
@@ -1132,7 +1132,7 @@ async function main() {
       title: "Chave de casa (simples)",
       description: "Chave prateada única, sem chaveiro.",
       location: "Pátio",
-      imageUrl: "https://example.com/chave-simples.jpg",
+      imageUrl: "https://i.ibb.co/Ndx6KsvV/download.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 40,
@@ -1141,7 +1141,7 @@ async function main() {
       title: "Fone de ouvido Apple (com fio)",
       description: "Fone original da Apple, com conector lightning.",
       location: "Biblioteca",
-      imageUrl: "https://example.com/fone-apple.jpg",
+      imageUrl: "https://i.ibb.co/DDwkGWQf/download.jpg",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 41,
@@ -1151,7 +1151,7 @@ async function main() {
       title: "Carregador de iPhone",
       description: "Cabo e fonte, originais. Perdido na sala 104.",
       location: "Sala 104",
-      imageUrl: "https://example.com/carregador-iphone.jpg",
+      imageUrl: "https://i.ibb.co/kV7JkBfT/download.jpg",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 42,
@@ -1160,7 +1160,7 @@ async function main() {
       title: "Bolsa pequena preta",
       description: "Bolsa transversal com alça dourada.",
       location: "Banheiro feminino",
-      imageUrl: "https://example.com/bolsa-preta.jpg",
+      imageUrl: "https://i.ibb.co/yJWYY8c/download.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 43,
@@ -1170,7 +1170,7 @@ async function main() {
       title: "Tênis Adidas (um pé)",
       description: "Pé esquerdo de um tênis Adidas Superstar, branco.",
       location: "Vestiário masculino",
-      imageUrl: "https://example.com/tenis-adidas.jpg",
+      imageUrl: "https://i.ibb.co/Ps9D2mh2/download.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 44,
@@ -1179,7 +1179,7 @@ async function main() {
       title: "Caderno de desenho",
       description: "Caderno grande, capa preta, com vários esboços.",
       location: "Sala 202",
-      imageUrl: "https://example.com/caderno-desenho.jpg",
+      imageUrl: "https://i.ibb.co/C5Jn9T03/download.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 45,
@@ -1189,7 +1189,7 @@ async function main() {
       title: "Blusa de frio (Azul Marinho)",
       description: "Blusa de lã, gola V, tamanho M.",
       location: "Auditório",
-      imageUrl: "https://example.com/blusa-la.jpg",
+      imageUrl: "https://i.ibb.co/chn6Wszt/download.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 46,
@@ -1198,7 +1198,7 @@ async function main() {
       title: "Hollister (Moletom)",
       description: "Moletom cinza com zíper, escrito Hollister em azul.",
       location: "Ginásio",
-      imageUrl: "https://example.com/moletom-hollister.jpg",
+      imageUrl: "https://i.ibb.co/nqrTpZZp/download.jpg",
       status: "ENCONTRADO",
       category: "Vestuário", // Adicionado
       ownerId: 47,
@@ -1208,7 +1208,7 @@ async function main() {
       title: "Airpods (Case)",
       description: "Caixinha de carregamento Airpods (vazia).",
       location: "Cantina",
-      imageUrl: "https://example.com/case-airpods.jpg",
+      imageUrl: "https://i.ibb.co/JWBRmYrC/download.jpg",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 48,
@@ -1217,7 +1217,7 @@ async function main() {
       title: "Documento (RG)",
       description: "Carteira de Identidade em nome de 'Carlos E. S.'.",
       location: "Secretaria",
-      imageUrl: "https://example.com/documento-rg.jpg",
+      imageUrl: "https://i.ibb.co/G4NDn17G/download.jpg",
       status: "ENCONTRADO",
       category: "Documentos", // Adicionado
       ownerId: 49,
@@ -1227,7 +1227,7 @@ async function main() {
       title: "Chaveiro (abridor)",
       description: "Chaveiro de metal em formato de abridor de garrafa.",
       location: "Refeitório",
-      imageUrl: "https://example.com/chaveiro-abridor.jpg",
+      imageUrl: "https://i.ibb.co/bjNZN0Bh/download.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 50,
@@ -1237,7 +1237,7 @@ async function main() {
       description:
         "Cadeado de bicicleta U-lock, preto. Encontrado no bicicletário.",
       location: "Bicicletário",
-      imageUrl: "https://example.com/cadeado-u-lock.jpg",
+      imageUrl: "https://i.ibb.co/HLR46zt9/download.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 51,
@@ -1247,7 +1247,7 @@ async function main() {
       title: "Kindle",
       description: "Kindle Paperwhite com capa azul.",
       location: "Biblioteca",
-      imageUrl: "https://example.com/kindle.jpg",
+      imageUrl: "https://i.ibb.co/B21ZDGng/download.jpg",
       status: "PERDIDO",
       category: "Eletrônicos", // Adicionado
       ownerId: 52,
