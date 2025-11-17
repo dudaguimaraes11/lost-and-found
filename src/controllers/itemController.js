@@ -7,13 +7,7 @@ export const getAllItems = async (req, res) => {
   try {
     const items = await Item.getItems(req.query);
 
-    return res.status(200).json({
-      total: items.length,
-      items,
-      message: "Itens encontrados",
-      status: 200,
-      error: null,
-    });
+    return res.status(200).json(items);
   } catch (error) {
     return res.status(500).json({
       error: error.message,
@@ -39,7 +33,6 @@ export const getItemById = async (req, res) => {
       item,
       message: "Item encontrado",
       status: 200,
-      error: null,
     });
   } catch (error) {
     return res.status(500).json({
@@ -59,7 +52,6 @@ export const createItem = async (req, res) => {
     return res.status(201).json({
       message: "Item criado com sucesso",
       status: 201,
-      error: null,
     });
   } catch (error) {
     return res.status(500).json({
@@ -108,7 +100,6 @@ export const updateItem = async (req, res) => {
       item,
       message: "Item atualizado com sucesso",
       status: 200,
-      error: null,
     });
   } catch (error) {
     return res.status(500).json({
