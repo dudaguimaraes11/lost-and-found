@@ -1668,7 +1668,7 @@ async function main() {
       location: "Vestiário masculino",
       imageUrl: "https://i.ibb.co/fz9MCkR4/74156602-A7.jpg",
       status: "PERDIDO",
-      category: "Acessórios", // Adicionado
+      category: "Acessórios", 
       ownerId: 96,
     },
     {
