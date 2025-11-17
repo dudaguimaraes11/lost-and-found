@@ -1677,7 +1677,7 @@ async function main() {
       location: "Corredor principal",
       imageUrl: "https://i.ibb.co/pBtCL18r/05ea2f7cfc.webp.jpg",
       status: "ENCONTRADO",
-      category: "Outros", // Adicionado
+      category: "Outros", 
       ownerId: 97,
       foundById: 57,
     },
@@ -1687,7 +1687,7 @@ async function main() {
       location: "Refeitório",
       imageUrl: "https://i.ibb.co/fVZXDSFG/Caneta-Plastica-Paquimetro-Multifuncoes-11924-1591289213.jpg",
       status: "PERDIDO",
-      category: "Material Escolar", // Adicionado
+      category: "Material Escolar", 
       ownerId: 98,
     },
     {
