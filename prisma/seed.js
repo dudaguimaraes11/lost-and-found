@@ -1715,7 +1715,7 @@ async function main() {
       description:
         "Powerbank branco da marca 'Baseus', deixado na sala de estudos.",
       location: "Sala de Estudos",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/KxY0cQ9f/0-4-x8uk6q5pad.webp.jpg",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 1, // Corrigido (era 101)
@@ -1726,7 +1726,7 @@ async function main() {
       description:
         "Crachá de aluno com foto, nome 'Lucas R.'. Perdido no corredor principal.",
       location: "Corredor principal",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/6J0DJ348/DSC-9368-alterada1-1.webp.jpg",
       status: "PERDIDO",
       category: "Documentos", // Adicionado
       ownerId: 2, // Corrigido (era 102)
@@ -1736,7 +1736,7 @@ async function main() {
       description:
         "Livro de capa mole, edição da 'Biblioteca Azul'. Encontrado no pátio.",
       location: "Pátio",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/QhTsZ1J/book-mockup-livraria-ma1-7215713d1e3eeb297d16499742984576-640-0.jpg",
       status: "ENCONTRADO",
       category: "Material Escolar", // Adicionado
       ownerId: 3, // Corrigido (era 103)
@@ -1747,7 +1747,7 @@ async function main() {
       description:
         "Máscara reutilizável azul, com elásticos para as orelhas. Perdida na cantina.",
       location: "Cantina",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/W4Fc1kqK/image.webp.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 4, // Corrigido (era 104)
@@ -1757,7 +1757,7 @@ async function main() {
       description:
         "Garrafa térmica prata, capacidade de 750ml. Encontrada na sala dos professores.",
       location: "Sala dos Professores",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/5W9vm3zQ/41-E473md0o-L.jpg",
       status: "ENCONTRADO",
       category: "Recipientes", // Adicionado
       ownerId: 5, // Corrigido (era 105)
@@ -1768,7 +1768,7 @@ async function main() {
       description:
         "Caderno de capa dura azul, com adesivos na capa. Esquecido na sala 203.",
       location: "Sala 203",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/ymqfnb1n/caderno-broc-univ-dmais-48fls-azul.webp.jpg",
       status: "PERDIDO",
       category: "Material Escolar", // Adicionado
       ownerId: 6, // Corrigido (era 106)
@@ -1779,7 +1779,7 @@ async function main() {
       description:
         "Fone de ouvido preto, modelo 'TWS'. Encontrado no laboratório de informática.",
       location: "Lab. de Informática",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/sGrP6nv/K3-T-4107-006-zoom1.webp.jpg",
       status: "ENCONTRADO",
       category: "Eletrônicos", // Adicionado
       ownerId: 7, // Corrigido (era 107)
@@ -1790,7 +1790,7 @@ async function main() {
       description:
         "Relógio digital preto da marca Casio, com pulseira de borracha. Perdido no vestiário.",
       location: "Vestiário",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/n8b9RZ19/relogio-casio-vintage-f-105w-1adf-sc-illuminator-1543-1-4424bbd809b62aaa5a24a2204c45dd2b.webp.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 8, // Corrigido (era 108)
@@ -1801,7 +1801,7 @@ async function main() {
       description:
         "Mochila preta com detalhes vermelhos, marca 'Nike'. Encontrada no pátio.",
       location: "Pátio",
-      imageUrl: "",
+      imageUrl: "https://i.ibb.co/Gvqt7HM9/mochila-regal-grande-cor-preta-799-1-ee945d07047c25339cafa2e8b1667318.webp.jpg",
       status: "ENCONTRADO",
       category: "Acessórios", // Adicionado
       ownerId: 9, // Corrigido (era 109)
