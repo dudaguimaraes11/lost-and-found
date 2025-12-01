@@ -1,7 +1,7 @@
 import * as Item from "../models/itemModel.js";
 
 /* ===============================
-   1. GET ALL ITEMS
+  1. GET ALL ITEMS
 ================================ */
 export const getAllItems = async (req, res) => {
   try {
@@ -12,7 +12,6 @@ export const getAllItems = async (req, res) => {
       items,
       message: "Itens encontrados",
       status: 200,
-      error: null,
     });
   } catch (error) {
     return res.status(500).json({
@@ -23,7 +22,7 @@ export const getAllItems = async (req, res) => {
 };
 
 /* ===============================
-   2. GET ITEM BY ID
+  2. GET ITEM BY ID
 ================================ */
 export const getItemById = async (req, res) => {
   try {
@@ -39,7 +38,6 @@ export const getItemById = async (req, res) => {
       item,
       message: "Item encontrado",
       status: 200,
-      error: null,
     });
   } catch (error) {
     return res.status(500).json({
@@ -50,7 +48,7 @@ export const getItemById = async (req, res) => {
 };
 
 /* ===============================
-   3. CREATE ITEM
+  3. CREATE ITEM
 ================================ */
 export const createItem = async (req, res) => {
   try {
@@ -59,7 +57,6 @@ export const createItem = async (req, res) => {
     return res.status(201).json({
       message: "Item criado com sucesso",
       status: 201,
-      error: null,
     });
   } catch (error) {
     return res.status(500).json({
@@ -70,7 +67,7 @@ export const createItem = async (req, res) => {
 };
 
 /* ===============================
-   4. DELETE ITEM
+  4. DELETE ITEM
 ================================ */
 export const deleteItem = async (req, res) => {
   try {
@@ -98,7 +95,7 @@ export const deleteItem = async (req, res) => {
 };
 
 /* ===============================
-   5. UPDATE ITEM
+  5. UPDATE ITEM
 ================================ */
 export const updateItem = async (req, res) => {
   try {
@@ -108,7 +105,6 @@ export const updateItem = async (req, res) => {
       item,
       message: "Item atualizado com sucesso",
       status: 200,
-      error: null,
     });
   } catch (error) {
     return res.status(500).json({

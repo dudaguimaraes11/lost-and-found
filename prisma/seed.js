@@ -1006,7 +1006,7 @@ async function main() {
       title: "Brinco de argola dourado",
       description: "Um brinco de argola (par perdido).",
       location: "Banheiro feminino",
-      imageUrl: "https://example.com/brinco-argola.jpg",
+      imageUrl: "https://i.ibb.co/BH8Wms4L/argola-d-suphix.webp.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 26,
@@ -1226,7 +1226,7 @@ async function main() {
     },
     {
       title: "Documento (RG)",
-      description: "Carteira de Identidade em nome de 'Carlos E. S.'.",
+      description: "Carteira de Identidade'.",
       location: "Secretaria",
       imageUrl: "https://i.ibb.co/G4NDn17G/download.jpg",
       status: "ENCONTRADO",
@@ -1294,7 +1294,7 @@ async function main() {
     },
     {
       title: "Cartão de transporte (Bilhete Único)",
-      description: "Cartão de estudante, nome 'Mariana G.'.",
+      description: "Cartão de estudante, nome 'Juilio G.'.",
       location: "Pátio",
       imageUrl: "https://i.ibb.co/gLM3J1mL/download.jpg",
       status: "PERDIDO",
@@ -1690,7 +1690,7 @@ async function main() {
     },
     {
       title: "Samsung Galaxy Buds FE",
-      description: "Um fone da marca samsumg encontrato no corredor principal.",
+      description: "Um fone da marca samsumg encontrato.",
       location: "Corredor principal",
       imageUrl: "https://i.ibb.co/spJycYZQ/buds.jpg",
       status: "ENCONTRADO",
@@ -1742,7 +1742,7 @@ async function main() {
     {
       title: "Cartão de Acesso (Crachá)",
       description:
-        "Crachá de aluno com foto, nome 'Lucas R.'. Perdido no corredor principal.",
+        "Crachá de aluno com foto, nome 'Yasmim Vitoria'. Perdido no corredor principal.",
       location: "Corredor principal",
       imageUrl: "https://i.ibb.co/6J0DJ348/DSC-9368-alterada1-1.webp.jpg",
       status: "PERDIDO",
