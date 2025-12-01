@@ -21,12 +21,31 @@ export const getUserById = async (id) => {
 };
 
 /* ===============================
-   3. CREATE USER
+   3. CREATE USERS
 ================================ */
 export const createUser = async (data) => {
-  return await prisma.user.create({
-    data,
-  });
+  if (!data.name || !data.email || !data.password) {
+    throw new Error("Os campos 'name', 'email' e 'password' são obrigatórios.");
+  }
+
+  try {
+    return await prisma.user.create({
+      data: {
+        name: data.name,
+        email: data.email,
+        password: data.password,
+        phone: data.phone,
+        anoEscolar: data.anoEscolar,
+        turma: data.turma,
+      },
+    });
+  } catch (error) {
+    if (error.code === "P2002") {
+      throw new Error("Este endereço de email já está cadastrado.");
+    }
+
+    throw error;
+  }
 };
 
 /* ===============================
