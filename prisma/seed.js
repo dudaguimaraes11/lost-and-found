@@ -1200,14 +1200,14 @@ async function main() {
       title: "Blusa de frio (Azul Marinho)",
       description: "Blusa de lã, gola V, tamanho M.",
       location: "Auditório",
-      imageUrl: "https://i.ibb.co/chn6Wszt/download.jpg",
+      imageUrl: "https://i.ibb.co/yCRHTQJ/blusa.jpg",
       status: "PERDIDO",
       category: "Vestuário", // Adicionado
       ownerId: 46,
     },
     {
       title: "Hollister (Moletom)",
-      description: "Moletom cinza com zíper, escrito Hollister em azul.",
+      description: "Moletom cinza com zíper.",
       location: "Ginásio",
       imageUrl: "https://i.ibb.co/nqrTpZZp/download.jpg",
       status: "ENCONTRADO",
@@ -1238,7 +1238,8 @@ async function main() {
       title: "Chaveiro (abridor)",
       description: "Chaveiro de metal em formato de abridor de garrafa.",
       location: "Refeitório",
-      imageUrl: "https://i.ibb.co/7J1NXLDw/Chaveiro-Metal-Resinado-rj124.webp.jpg",
+      imageUrl:
+        "https://i.ibb.co/7J1NXLDw/Chaveiro-Metal-Resinado-rj124.webp.jpg",
       status: "PERDIDO",
       category: "Acessórios", // Adicionado
       ownerId: 50,
@@ -1416,12 +1417,13 @@ async function main() {
       ownerId: 68,
     },
     {
-      title: "Maço de cigarros (fechado)",
-      description: "Maço de Marlboro vermelho, encontrado no estacionamento.",
+      title: "Camiseta preta",
+      description:
+        "Camiseta de algodão preta, tamanho médio, encontrada no estacionamento.",
       location: "Estacionamento",
-      imageUrl: "https://i.ibb.co/mr92HtwC/download.jpg",
+      imageUrl: "https://i.ibb.co/Pvg6JmYm/camiseta-preta.jpg",
       status: "ENCONTRADO",
-      category: "Outros", // Adicionado
+      category: "Outros",
       ownerId: 69,
       foundById: 43,
     },
@@ -1591,11 +1593,10 @@ async function main() {
       ownerId: 86,
     },
     {
-      title: "Garrafa de iogurte",
-      description: "Garrafa de 'Yakult', encontrada vazia na sala 202.",
+      title: "Moletom Mad Enlatados",
+      description: "Moletom da marca Mad Enlatados, encontrado na sala 202.",
       location: "Sala 202",
-      imageUrl:
-        "https://i.ibb.co/0LHgWKH/l-35ac16e8ee7e4ae99b7fd288d49e8969.jpg",
+      imageUrl: "https://i.ibb.co/CsHgMP6P/moletom-mad.webp.jpg",
       status: "ENCONTRADO",
       category: "Recipientes", // Adicionado
       ownerId: 87,
